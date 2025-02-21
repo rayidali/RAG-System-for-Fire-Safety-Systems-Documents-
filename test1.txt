@@ -1,0 +1,3517 @@
+4100ES Fire Control Units
+UL/ULC, CSFM Listed; FM Approved,
+OTCR/NYC Acceptance*
+
+4100ES Addressable Fire Detection and Control Basic Panel Modules and Accessories
+
+Features
+
+options, refer to data sheet S4100-0061
+• Electrically isolated output IDNet 2 (two loop) and IDNet 2+2 (four loop)
+modules with short circuit isolation output loops allowing use with
+either shielded or unshielded, twisted or untwisted single pair wiring
+• Fire Alarm Network Interfaces, DACTs, city connections, and up to five
+RS-232 ports for printers and terminals
+• Compatible with Connected Services Gateway to support central
+station communication and enable SafeLINC Cloud Services, refer to
+datasheet S2080-0091
+• MAPNET II addressable device modules and MAPNET II quad isolator
+modules
+• IDNAC signalling line circuits (SLCs) for addressable appliance control
+• Alarm relays, auxiliary relays, additional power supplies, IDC modules,
+NAC expansion modules
+• Service modems, VESDA Air Aspiration Systems interface, ASHRAE
+BACnet Interface, TCP/IP Bridges
+• LED/switch modules and panel mount printers
+• Emergency communications systems (ECS) equipment; 8 channel
+digital audio or 2 channel analog audio
+• 8-point zone/relay module, each point is selectable as an IDC input or
+relay output. Class A IDCs require two points (one out and one return).
+Relays rated for 2 A @ 30 VDC (resistive) and configurable as either
+normally open or normally closed.
+• Compatible with Simplex remotely located 4009 IDNet NAC Extenders,
+up to ten for each IDNet SLC
+Listings information*
+
+Figure 1: 4100ES Cabinets are available with one, two, or three
+bays (two bay cabinet with ES Touch Screen Display shown)
+Master Controller (top) bay:
+• Models available with Color ES Touch Screen Display (shown in Figure
+1), Monochrome 2 line x 40 Character Display, or Monochrome
+InfoAlarm Display
+• 32-Bit Master Controller with color-coded operator interface including
+raised switches for high-confidence feedback
+• Dual configuration program CPU, convenient service port access, and
+capacity for up to 3000 addressable points
+• CPU assembly includes 2 GB dedicated compact flash memory for onsite system programming and information storage
+• ES Power Supply (ES-PS) and charger with onboard alarm relay,
+programmable auxiliary power output and provisions for one 4 in.
+x 10 in. or two 4 in. x 5 in. compatible option cards such as IDNet2
+addressable device interface, Conventional NAC or Addressable IDNAC
+SLC modules; refer to 579-1288 installation instructions for additional
+details
+• Upgrade kits are available for existing control panels
+Network compatibility:
+Compatible with Simplex ES Net or 4120 Fire Alarm Networks
+Standard addressable interfaces include:
+
+• UL 864, Fire Detection and Control (UOJZ), Smoke Control Service
+(UUKL), Releasing Device Service (SYZV), Emergency Communication
+and Relocation Equipment (UOQY)
+• UL 1076, Proprietary Alarm Units - Burglar (APOU)
+• UL 2017, Process Management Equipment (QVAX), Emergency Alarm
+System Control Units (FSZI)
+• UL 1730, Smoke Detector Monitor (UULH)
+• UL 2572, Mass Notification Systems (PGWM)
+• CAN/ULC-S527 Control Units for Fire Alarm Systems (UOJZ7), Releasing
+Device Service (SYZV7)
+• CAN/ULC-S559 Central Station Fire Alarm System Units (DAYR7)
+• ULC/ORD-C1076 Proprietary Burglar Alarm Units and Systems (APOU7)
+• ULC/ORD-C100 Smoke Control System Equipment (UUKL7)
+
+Software Feature Summary
+CPU provides dual configuration programs
+• Two programs allow for optimal system protection and commissioning
+efficiency with one active program and one reserve
+• Downtime is reduced because the system stays running during
+download
+PC based programmer features
+
+• 250 point addressable IDNet 2 SLC channel with electrically isolated
+dual short circuit isolating loops that supports TrueAlarm analog
+sensors and IDNet communications monitoring and control devices
+• Remote annunciator module support through RUI+ (remote unit
+interface) communications port
+
+• Convenient front panel accessed Ethernet port for quick and easy
+download of site-specific programming
+• Modifications can be uploaded as well as downloaded for greater
+service flexibility
+• Firmware enhancements are made through software downloads to the
+on-board flash memory
+
+Optional modules include:
+
+Operator interface features
+
+• Building Network Interface Module (BNIC) for Ethernet connectivity
+
+• TrueAlarm individual analog sensing with front panel information and
+
+* See module information sections for product that is UL or ULC listed and additional listing information. This product has been listed by the California State Fire Marshal (CSFM) pursuant to Section
+13144.1 of the California Health and Safety Code. See CSFM Listing 7165-0026:251(4100ES) for allowable values and/or conditions concerning material presented in this document. Accepted for use –
+City of New York Department of Buildings – MEA35-93E. At the time of publication only UL and ULC listings are applicable to ES Net network products. Additional listings may be applicable; contact your
+local Simplex product supplier for the latest status
+
+S4100-1031 Rev. 11 7/2021
+
+4100ES Addressable Fire Detection and Control Basic Panel Modules and Accessories
+selection access
+• "Dirty" TrueAlarm sensor maintenance alerts, service and status
+reports including "almost dirty"
+• TrueAlarm magnet test indication appears as distinct "test abnormal"
+message on display when in test mode
+• TrueAlarm sensor peak value performance report
+• Install Mode allows grouping of multiple troubles for uninstalled
+modules and devices into a single trouble condition, typical with future
+phased expansion; with future equipment and devices grouped into
+a single trouble, operators can more clearly identify events from the
+commissioned and occupied areas
+• Module level ground fault searching assists installation and service by
+locating and isolating modules with grounded wiring
+• Recurring Trouble Filtering allows the panel to recognize, process,
+and log recurring intermittent troubles, such as external wiring ground
+faults, but only sends a single outbound system trouble to avoid
+nuisance communications
+• WALKTEST silent or audible system test performs an automatic selfresetting test cycle
+
+Introduction
+4100ES Series Fire Detection and Control Panels provide extensive
+installation, operator, and service features with point and module
+capacities suitable for a wide range of system applications. An onboard Ethernet port provides fast external system communications
+to expedite installation and service activity. Dedicated compact flash
+memory archiving provides secure on-site system information storage of
+electronic job configuration files.
+Modular design
+A wide variety of functional modules are available to meet specific
+system requirements. Selections allow panels to be configured for either
+Stand-Alone or Networked fire control operation. InfoAlarm Command
+Center options provide convenient expanded display content, detailed
+on data sheet S4100-1045.
+
+Module Bay Description
+The Master Controller Bay (top) includes a standard multi-featured ES
+power supply, the master controller board, expansion space for optional
+features, and operator interface equipment.
+The Expansion Bays include a Power Distribution Interface (PDI) for
+new 4 in. x 5 in. flat design option modules and also accommodate
+4100-style modules.
+The Battery Compartment (bottom) accepts two batteries, up to 50
+Ah, to be mounted within the cabinet without interfering with module
+space.
+Figure 2 identifies bay locations using a three bay cabinet for reference.
+
+Page 2
+
+Figure 2: 4100ES Module Bay Reference
+
+S4100-1031 Rev. 11 7/2021
+
+4100ES Addressable Fire Detection and Control Basic Panel Modules and Accessories
+Mechanical Description
+
+Compatible Peripheral Devices
+
+• Boxes can be close-nippled; each box provides convenient stud
+markers for drywall thickness and nail-hole knockouts for quicker
+mounting
+• Smooth box surfaces are provided for locally cutting conduit entrance
+holes exactly where required
+• The latching dress panel (retainer) assembly easily lifts off for internal
+access
+• NACs can be mounted directly on power supply assemblies
+providing minimized wiring loss, compact size, and readily accessible
+terminations
+• Packaging supports traditional 4100-style motherboard with daughter
+cards
+• Modules are power-limited except as noted, such as relay modules
+• The NEMA 1/IP30 box is ordered separately and available for early
+installation
+• Doors are available with tempered glass inserts or solid; boxes and
+doors are available in platinum or red
+• Boxes and door/retainer assemblies are ordered separately per system
+requirements; refer to data sheet S4100-0037 for details
+
+The 4100ES is compatible with an extensive list of remote peripheral
+devices including printers, CRT/keyboards (up to five total), and both
+conventional and addressable devices including TrueAlarm analog
+sensors and TrueAlert addressable appliances.
+
+Operator Interface Detail Reference
+4100ES Fire Alarm Control Units are provided with either an enhanced
+Color ES Touch Screen Display or a basic Monochrome 2 Line by 40
+Character operator interface depending on the model selected. The
+following illustrations highlight the primary functions of each.
+
+Master Controller Bay Module Details
+Master Controller and Motherboard
+• Master Controller mounts in Slot 2 of a two slot motherboard and
+provides one Class B or Class A, RUI+ communications channel
+configurable for isolated or un-isolated operation
+• Slot 1 of the motherboard is primarily for an optional network interface
+card, or secondarily for the 4100-6038 dual RS-232 board
+• RUI+ and RUI communications controls up to 31 remote devices per
+master controller at up to 2500 ft (762 m) for single run, or 10,000
+ft (3048 m) total if wiring is Class B and T-tapped; if more distance is
+required, up to four total RUI channels are supported; add up to three
+4100-1291 RUI Expansion Modules (4100-1291 provides unisolated
+RUI communications)
+• Compatible RUI+ and RUI remote equipment includes: MINIPLEX
+transponders, 4603-9101 LCD Annunciators, 4602-9101 Status
+Command Units (SCU), 4602-9102 Remote Command Units (RCU),
+4602 Series LED Annunciator Panels, 4100 Series 24 I/O and LED/
+Switch modules, (4602 series annunciators require un-isolated
+communications)
+• Up to four RUI channels (combination of built-in RUI+ and optional RUI
+modules) are supported per master controller
+• Open slot space on the left of the CPU motherboard is available
+for either another dual slot motherboard, or for one or two block
+modules, see Figure 14
+ES-PS Master Controller Power Supply
+
+Figure 3: ES Touch Screen Display Interface
+
+Figure 4: 2 x 40 Operator Interface
+
+Page 3
+
+• Rating is up to 9.5 A total without a fan or up to 12.7A total with a fan
+using Special Application appliances; or up to 5 A total with Regulated
+24 DC appliance loads.
+• Outputs are power-limited, except for battery charger and city circuits.
+• Provides system power, battery charging, auxiliary power, auxiliary
+relay, earth detection, electrically isolated IDNet 2 communications
+channel for 250 points (4100-3117), three 3 A conventional NACs
+(4100-5450) or three 3 A IDNAC addressable SLCs (4100-5451), two
+block spaces for compatible optional modules and provisions for either
+an optional City Connect Module or an optional Alarm Relay Module
+(City Connect or Alarm Relay module requires one available block
+space).
+• IDNet 2 SLC Output (4100-3109 and 4100-3117) provides an
+electrically isolated Class B or Class A communications channel with
+dual short circuit isolating loops for up to 250 addressable devices,
+as described in Addressable Device Control (requires one block space
+from ES-PS power supply or Master Controller bay).
+• Conventional NAC Module (4100-5450) provides three outputs
+individually selectable as a Conventional NAC (Class B or Class A) or an
+Auxiliary Power output. When mounted on the ES-PS power supply,
+each NAC is rated at 3 A for Special Application appliances (9 A max
+per card) or 2 A for Regulated 24 DC loads (4 A max per card). NAC
+operation supports synchronized strobe or SmartSync horn/strobe
+operation over two wires. Auxiliary power outputs are rated for 3 A
+continuous duty. The total auxiliary power output per power supply is
+limited to 5 A (requires one block space).
+• IDNAC Addressable Notification SLC Module (4100-5451) provides
+three 3 A IDNAC addressable notification SLCs compatible with both
+TrueAlert ES and TrueAlert addressable notification appliances and
+remote 4009 IDNAC Repeaters used to extend power and wiring
+distances (requires two block spaces).
+• DCAI (Dual Class A IDNAC Isolator) Module (4100-6103) creates
+two Class A outputs from one IDNAC SLC Class B Input; up to two can
+S4100-1031 Rev. 11 7/2021
+
+4100ES Addressable Fire Detection and Control Basic Panel Modules and Accessories
+be connected to one IDNAC SLC, with up to 6 total per ES-PS power
+supply; total Class A output loop current is limited to the 3 A rating of
+the IDNAC SLC (requires one block space).
+• Battery Charger is dual rate, temperature compensated, and
+charges up to 50 Ah sealed lead-acid batteries mounted in the battery
+compartment (33 Ah for single bay cabinets); also is UL and ULC listed
+for charging up to 110 Ah batteries mounted in an external cabinet,
+refer to data sheet S2081-0012 for details.
+• Battery and Charger Monitoring includes battery charger status
+and low or depleted battery conditions; status information provided
+to the master controller includes analog values for: battery voltage,
+charger voltage and current, actual system voltage and current,
+individual NAC currents, and individual IDNAC SLC currents.
+• Low Battery Cutout is selectable for each ES-PS power supply.
+• 2 A Programmable Output is selectable for conventional SNAC or
+Auxiliary power operation.
+- SNAC operation supports conventional non-synchronous NAC
+operation to provide supervised reverse polarity for sounder base
+power, Suppression Release Peripheral (SRP) power, or other coded
+NAC operation requirements.
+- Auxiliary (AUX) power operation can be used for sounder base
+power, four-wire detector power, or door holder; relay is selectable
+as N.O. or N.C and rated for 2 A @ 32 VDC and 30 VAC (resistive);
+supervised AUX operation does not require an end-of-line relay to
+provide Power-Limited operation.
+• Auxiliary Relay is selectable as N.O. or N.C., rated 2 A @ 32 VDC or 30
+VAC (resistive), and is programmable as a trouble relay, either normally
+energized or normally de-energized, or as an auxiliary control.
+• Optional City Connect Module (4100-6031, with disconnect
+switches, or 4100-6032, without disconnect switches) can be selected
+for conventional dual circuit city connections (requires one block
+space).
+• Optional Alarm Relay Module (4100-6033) provides three Form
+C relays that are used for Alarm, Trouble, and Supervisory, rated 2 A
+resistive @ 32 VDC (requires one block space).
+
+IDNet SLC for Addressable Device
+Communications
+Overview
+The 4100ES provides standard addressable device communications
+for IDNet compatible devices and accepts optional modules for
+communications with MAPNET II compatible devices. Using a two wire
+communications circuit, individual devices such as manual fire alarm
+stations, TrueAlarm sensors, conventional IDC zones, and sprinkler
+waterflow switches can be interfaced to the addressable controller to
+communicate their identity and status.
+Addressability allows the location and condition of the connected device
+to be displayed on the operator interface LCD and on remote system
+annunciators. Additionally, control circuits (fans, dampers, etc.) may be
+individually controlled and monitored with addressable devices.
+Addressable Operation
+Each addressable device on the communication channel is continuously
+interrogated for status condition such as: normal, off-normal, alarm,
+supervisory, or trouble. Both Class B and Class A operation are available.
+Sophisticated poll and response communication techniques ensure
+supervision integrity and allow for "T-tapping" of the circuit for Class
+B operation. Devices with LEDs pulse the LED to indicate receipt of a
+communications poll and can be turned on steady from the panel.
+IDNet Channel Capacity
+The CPU bay ES-PS provides an IDNet 2 signaling line circuit (SLC) that
+supports up to 250 addressable monitor and control points intermixed
+on the same pair of wires. IDNet 2 and IDNet 2+2 Module SLCs are
+isolated from other system reference voltages to reduce common mode
+Page 4
+
+noise interaction with adjacent system wiring. Additional 250 address
+IDNet 2 or IDNet 2+2 Modules are available, see Table 22.
+Table 1: IDNet, MAPNET II, IDNet 2, and
+IDNet 2+2 SLC Wiring Common Specifications
+
+Specification
+1 to 125
+Maximum Distance
+from Control Panel per 126 to
+Device Load
+250
+Connections
+
+Description
+4000 ft (1219 m); 50 ohms
+2500 ft (762 m); 35 ohms
+Terminals for 18 to 12 AWG (0.82
+2
+
+2
+
+mm to 3.31 mm )
+Table 2: IDNet and MAPNET II Specifications
+
+Specification
+Wire Type
+
+New Installation
+Retrofit Only
+
+Total Wire Length Allowed With "T" Taps for
+Class B Wiring
+
+Description
+Shielded twisted pair
+(STP)
+Unshielded twisted pair
+(UTP)
+Up to 10,000 ft (3 km);
+0.58 μF
+
+Note: For retrofit installations consult with your local Simplex product
+supplier, restrictions may apply.
+Table 3: IDNet 2 and IDNet 2+2 Wiring Specifications
+
+Specification
+Wire Type
+
+New Installation
+Retrofit Only
+
+Description
+Unshielded twisted pair
+(UTP)
+Shielded or unshielded,
+twisted or untwisted
+wire
+Up to 12,500 ft (3.8
+km); 0.60 μF
+1 μF
+
+Total Wire Length Allowed With "T" Taps for
+Class B Wiring
+Maximum Capacitance Between IDNet 2
+Channels
+IDNet 2 and IDNet 2+2 Module Compatibility: IDNet communicating
+devices and TrueAlarm sensors including QuickConnect and
+QuickConnect2 sensors
+
+Note: For retrofit installations consult with your local Simplex product
+supplier, restrictions may apply.
+
+TrueAlarm System Operation
+Addressable device communications include operation of TrueAlarm
+smoke and temperature sensors. Smoke sensors transmit an output
+value based on their smoke chamber condition and the CPU maintains a
+current value, peak value, and an average value for each sensor. Status
+is determined by comparing the current sensor value to its average
+value. Tracking this average value as a continuously shifting reference
+point filters out environmental factors that cause shifts in sensitivity.
+Programmable sensitivity of each sensor can be selected at the
+control panel for different levels of smoke obscuration (shown directly
+in percent) or for specific heat detection levels. To evaluate whether the
+sensitivity should be revised, the peak value is stored in memory and can
+be easily read and compared to the alarm threshold directly in percent.
+CO sensor bases combine an electrolytic CO sensing module with a
+TrueAlarm analog sensor to provide a single multiple sensing assembly
+using one system address. The CO sensor can be enabled/disabled,
+used in LED/Switch modes and custom control, and can be made public
+for communication across a fire alarm Network. Refer to data sheet
+S4098-0052 for details.
+TrueAlarm heat sensors can be selected for fixed temperature
+detection, with or without rate-of-rise detection. Utility temperature
+sensing is also available, typically to provide freeze warnings or alert to
+HVAC system problems. Readings can selected as either Fahrenheit or
+Celsius.
+
+S4100-1031 Rev. 11 7/2021
+
+4100ES Addressable Fire Detection and Control Basic Panel Modules and Accessories
+TrueSense Early Fire Detection
+Multi-sensor 4098-9754 provides photoelectric and heat sensor data
+using a single 4100ES IDNet address. The panel evaluates smoke
+activity, heat activity, and their combination, to provide TrueSense
+early detection. For more details on this operation, refer to data sheet
+S4098-0024.
+
+Diagnostics and Default Device Type
+Sensor Status
+TrueAlarm operation allows the control panel to automatically indicate
+when a sensor is almost dirty, dirty, and excessively dirty. The NFPA 72
+requirement for a test of the sensitivity range of the sensors is fulfilled
+by the ability of TrueAlarm operation to maintain the sensitivity level of
+each sensor. CO Sensors track their 10 year active life status providing
+indicators to assist with service planning. Indicators occur at: 1 year, 6
+months, and when end of life is reached.
+Modular TrueAlarm sensors
+TrueAlarm sensors use the same base and different sensor types (smoke
+or heat sensor) and can be easily interchanged to meet specific location
+requirements. This allows intentional sensor substitution during building
+construction when conditions are temporarily dusty. Instead of covering
+smoke sensors (causing them to be disabled), heat sensors may be
+installed without reprogramming the control panel. The control panel
+will indicate an incorrect sensor type, but the heat sensor will operate at
+a default sensitivity to provide heat detection for building protection at
+that location.
+
+IDNAC SLC for Addressable Notification Appliance
+Communications
+IDNAC Addressable notification appliance communications
+include operation of TrueAlert and TrueAlert ES Visible only (V/O, strobe),
+Audible only (A/O, horn), Audible/Visible (A/V, horn/strobe), and strobes
+of Speaker/Visible (S/V) notification appliances. (S/V appliances require
+separate speaker wiring.) IDNAC SLC addressable communications
+allow each horn and strobe to be individually controlled using a single
+two-wire circuit, confirms the wiring connections to the individual
+notification appliance's electronic circuit, and confirms communications
+between each appliance and the fire alarm control unit. Addressable
+communications increases supervision integrity versus conventional
+notification systems by providing supervision beyond the circuit wiring to
+each individual appliance and by constantly verifying the ability of each
+appliance to communicate with the control panel.
+Individual Appliance Status and Settings
+The fire alarm control panel monitors and records each addressable
+notification appliance status, type of appliance, and its configured
+appliance settings. A fault in any individual appliance automatically
+reports a trouble condition to the control panel.
+
+Panel Control Convenience
+Applicable operation settings for each appliance can be programmed
+without having to replace appliances or remove them from the wall or
+ceiling. An appliance's VNAC notification zone can be easily changed
+through programming without having to add additional circuits, conduit,
+and wiring. Audible and visible appliances for non-Fire Emergency
+Communications notification can be programmed to operate separately
+on the same pair of wires as the fire alarm notification appliances. The
+result is lower installation, retrofit, and overall life-cycle cost of ownership
+compared with traditional conventional notification systems.
+Installation, Retrofit, and Life-Cycle Cost Benefits
+With each addressable appliance capable of being controlled separately
+on the same two-wire IDNAC SLC, installation time and expense for
+both retrofit and new construction can be significantly reduced. When
+Class B wiring is used, wiring can be "T-tapped" allowing more savings
+in distance, wire, conduit (size and utilization), and overall installation
+efficiency.
+Location Information, Diagnostics and Troubleshooting
+Each addressable notification appliance has its own 40 character
+custom label to identify the location of the appliance and to aid in
+troubleshooting fault conditions. In conventional notification systems,
+conventional appliances are not capable of communicating with the
+control panel. Fault reporting on a conventional system is limited to
+the circuit wiring and the entire area (zone) covered by appliances on
+the notification appliance circuit (NAC) making it much more difficult
+and costly to locate and correct the source of a problem. Using the
+TrueAlert magnet test allows each appliance to individually identify
+its candela setting and address and to briefly operate if desired, and
+using the TrueAlert ES Appliance Self-Test feature provides detailed
+performance verification per appliance.
+
+TrueAlert ES Appliance Self-Test Operation
+On-Board Test Sensors
+TrueAlert ES appliances are equipped with on-board sensors to detect
+strobe and/or horn output allowing efficient and unobtrusive SelfTesting. When Automatic Self-Test is initiated from the control panel,
+each appliance within the selected VNAC group will briefly operate and
+then report its Self-Test status to the control panel, all within several
+seconds. Silent Self-Test can be selected to test only visible appliance
+if desired. The control panel is in a trouble condition during testing
+and in the event of an alarm, Self-Test is automatically terminated.
+Additionally, Automatic Self-Test can be scheduled to occur at a
+convenient time on a regular basis (Requires version 2.03.01 or higher
+software).
+Automatic Self-Test
+Automatic Self-Test results are communicated to the control panel with
+a time and date stamp and are stored in memory. Results are viewable
+at the front panel display and printed reports can be generated from the
+panel service port.
+Individual Self-Test
+Individual Self-Test is selected from the control panel when individual
+appliances need to be observed to operate. Each appliance in the
+selected VNAC group will turn on its LED until individually activated by
+applying a magnet. After performing the individual test, the appliance
+LED turns off to indicate completion. Results are recorded the same as
+during the automatic test.
+
+Figure 5: TrueAlert ES Addressable Appliance Reference
+Virtual NACs Provide Control Convenience
+For control convenience, IDNAC notification appliances can be grouped
+into Virtual NACS (VNACs) for group control, grouping that can be made
+across SLCs, not defined by their wiring connection.
+Page 5
+
+S4100-1031 Rev. 11 7/2021
+
+4100ES Addressable Fire Detection and Control Basic Panel Modules and Accessories
+TrueAlert ES Appliance Self-Test Last Test Results Report Example
+
+Results Description
+• NORMAL = Works correctly
+• NO OUT = No Output, no light or sound was detected
+• NOT TST = No result. Either the appliance did not return a result before the test ended or the test was conducted as silent (strobes only) and audible
+appliance was not activated
+• N/A = Not applicable (no strobe, on audible only, etc.)
+• UNSUPP = Appliance not compatible with Self-Test (TrueAlert addressable appliance not TrueAlert ES addressable appliance)
+Note: Additional TrueAlert ES Self-Test information is detailed in ES Operating Instructions 579-197 shipped with the panel.
+
+TrueAlert ES Appliance Self-Test All Test Results Report Example
+
+TrueAlert ES Appliance Self-Test Individual Appliance Report Example
+
+Page 6
+
+S4100-1031 Rev. 11 7/2021
+
+4100ES Addressable Fire Detection and Control Basic Panel Modules and Accessories
+IDNAC SLC Hardware Reference
+ES-PS Power Supplies
+ES-PS Power Supplies configured with an IDNAC card provide three, 3 A IDNAC SLCs for control and power to TrueAlert ES and TrueAlert addressable
+notification appliances. Both power supplies incorporate an efficient switching design that provides a regulated output of 29 VDC, even during battery
+operation. With 29 VDC minimum output at the panel, addressable notification SLCs can support wiring distances two to three times farther than
+available with conventional notification, or support more appliances per SLC, or work with smaller gauge wiring, or combinations of these benefits, all
+resulting in installation and maintenance savings with high assurance that appliances that operate during normal system testing will operate during
+worst case alarm conditions.
+
+IDNAC SLC Appliance Wiring Reference
+IDNAC SLC Capacity
+Up to 127 addresses and up to 139 unit loads (appliances are typically one unit load, devices such as Isolators may require more than one load, refer
+to individual device data sheet for specific information)
+Table 4: IDNAC SLC Appliance Wiring Reference
+
+Specification
+Recommended wire type
+Maximum wire length allowed with "T-Taps" for Class B wiring, per
+SLC
+Maximum wire length per SLC to any appliance
+Appliance Supervisory Current
+
+Rating
+Unshielded twisted pair (UTP)
+
+Wiring connections
+
+Terminals for 18 to 12 AWG (0.82 mm to 3.31 mm )
+579-1015
+
+Installation Instructions (see for more information)
+
+10,000 ft (3048 m)
+4000 ft (1219 m)
+1 unit load = 0.8 mA per appliance
+2
+
+2
+
+8-Point Zone/Relay Module Details
+• Select as IDC or Relay; configure up to eight Class B IDCs, or up to four Class A IDCs; or up to eight Relay outputs rated 2 A resistive @ 30 VDC (N.O.
+or N.C.); or combinations of IDCs and Relays; each zone is separately configurable as an IDC or Relay output
+• IDC Support: each IDC supports up to 30, two-wire devices. Zone relay modules may be powered directly from the control unit power supply or
+through the optional 25 VDC regulator module where required for two-wire detector compatibility. Refer to 2-Wire Detector Compatibility document
+579-832 for additional details.
+• IDC EOL resistor values are selectable as: 3.3 kΩ, 2 kΩ, 2.2 kΩ, 3.4 kΩ, 3.9 kΩ, 4.7 kΩ, 5.1 kΩ, 5.6 kΩ, 6.34/6.8 kΩ, and 3.6 kΩ + 1.1 kΩ; see
+instructions for more details
+
+Page 7
+
+S4100-1031 Rev. 11 7/2021
+
+4100ES Addressable Fire Detection and Control Basic Panel Modules and Accessories
+Color ES Touch Screen Display
+The Color ES Touch Screen Display interface offers intuitive operation similar to a tablet or smart phone. With a larger area format versus an individual
+text line display, more information is available at a glance, and minimal key presses are needed to access detailed information.
+
+Figure 6: ES Touch Screen Display Operator Interface
+
+Features
+ES Touch Screen Displays provide customized operating experience
+• Event activity display choices include: First 8 Events; or First 7 Events with emphasis on Most Recent; or First 6 Events with emphasis on First and
+Most Recent (individually selectable for each event type)
+• System reports are easily viewable; logs can be read with minimal scrolling
+• Up to two languages are available per system, easily selected by programmable key press
+• Information sent to Remote ES Touch Screen Displays can be vectored by point or zone
+• Both Hard and Soft keys available for critical functions: Event Acknowledge, Alarm Silence, and Reset Functions
+• Resistive touchscreen technology allows operation with or without gloves
+• Seven programmable RGY LEDs available for user-defined display status (up to 2 status conditions per LED)
+• Seven programmable Soft keys available for user-defined control or maintenance functions
+• PRI2 Soft key label can be changed to CO to annunciate Carbon Monoxide detection status
+• ES Touch Screen Display can be programmed to report individual points or groups of points as a single zone
+• Supports ability to display a custom watermark background file of a company logo or other desired display content
+
+Page 8
+
+S4100-1031 Rev. 11 7/2021
+
+4100ES Addressable Fire Detection and Control Basic Panel Modules and Accessories
+Display properties
+• 8 inch (203 mm) diagonal, 800 x 600 resolution color touch screen display capable of annunciating up to 8 active events without scrolling
+• Bright white LED backlighting provides efficient and long lasting illumination; backlight is dim in quiescent state, automatically switches to full power
+on touch or on event activity in system.
+
+Description
+ES Touch Screen Displays for 4100ES fire alarm systems provide a large display with extended information content, dual language support including
+UTF-8 character languages, and an intuitive control key interface per the following:
+• Up to 10 ES Touch Screen Displays are supported per 4100ES control panel; able to allow one ES Touch Screen Display to take-control and to
+designate access levels for interfaces not in-control; programmable LEDs can be assigned to in-control status indications
+• Menu-driven format conveniently prompts operators for the next action required
+• Direct point callup displays individual points alphabetically and then homes in on the logical choice as more point information is entered
+• Event categories are color coded for quick visual representation; Red for Alarm and Priority 2 Events; Yellow for Supervisory and Trouble events
+• Date formats are either MM/DD/YY or DD/MM/YY
+• Time formats are either 24 hour or 12 hour with AM/PM
+• System Normal screen supports a color background (watermark) for company name, company logo, or other desired display content
+
+Page 9
+
+S4100-1031 Rev. 11 7/2021
+
+4100ES Addressable Fire Detection and Control Basic Panel Modules and Accessories
+Example Display Screens
+
+Figure 7: First and Most Recent Alarm Display
+
+Page 10
+
+Figure 8: Main Menu
+
+Figure 9: First Eight Active Trouble Events List
+
+Figure 10: Direct Point Callup
+
+Figure 11: Alarm History Log
+
+Figure 12: Detailed Point Status
+Screen for TrueAlert ES Appliance
+
+S4100-1031 Rev. 11 7/2021
+
+4100ES Addressable Fire Detection and Control Basic Panel Modules and Accessories
+Specifications
+Table 5: General ES Touch Screen Display Specifications
+
+Specification
+Resolution
+Size / Type
+Touch Screen Technology
+Event Display
+Normal Screen Custom Watermark File Format
+Environmental
+
+Page 11
+
+Rating
+800 x 600 Pixels (RGB)
+8 inch (203 mm) Diagonal / Color Touch Screen
+Resistive
+Up to 8 Events without scrolling
+680 x 484 Pixels: BMP, JPG, TIFF, GIF or PNG file format
+Operating Temperature: 32°F to 120°F (0°C to 49°C)
+Operating Humidity: Up to 93% RH, non-condensing @ 90°F (32°C)
+maximum
+
+S4100-1031 Rev. 11 7/2021
+
+4100ES Addressable Fire Detection and Control Basic Panel Modules and Accessories
+Operator Interface with Monochrome 2 x 40 LCD
+With the locking door closed, the glass window allows viewing of the display, status LEDs, and available operator switches. Features include a two-line
+by 40-character, wide viewing angle (super-twist) LCD with status LEDs and switches as shown in Figure 13.
+LED indicators describe the general category of activity being displayed with the LCD providing more detail. For the authorized user, unlocking the door
+provides access to the control switches and allows further inquiry by scrolling the display for additional detail.
+• Convenient and extensive operator information is provided using a logical, menu-driven display
+• Multiple automatic and manual diagnostics for maintenance reduction
+• Alarm and Trouble History Logs (up to 1000 entries for each, 2000 total events) are available for viewing from the LCD, or capable of being printed to
+a connected printer, or downloaded to a service computer
+• Convenient PC programmer label editing
+• Password access control
+
+Figure 13: Operator Interface
+
+Page 12
+
+S4100-1031 Rev. 11 7/2021
+
+4100ES Addressable Fire Detection and Control Basic Panel Modules and Accessories
+Expansion Bay Module Loading Reference
+
+Size Definitions: Block = 4 in. W x 5 in. H (102 mm x 127 mm) card area
+Slot = 2 in. W x 8 in. H (51 mm x 203 mm) motherboard with daughter card
+Table 6: Expansion bay loading reference
+
+Description
+IDNet 2, IDNet 2+2 Modules
+Four 2 A Relays
+Four 10 A Relays
+Eight 3 A Relays
+VESDA Interface
+Class B IDC
+Class A IDC
+MAPNET II Module
+MAPNET II/IDNet Isolator
+NAC Card
+IDNAC Card
+ES-PS
+ES-PS Configured as backup
+ES-XPS
+
+Page 13
+
+NON Power-limited
+
+Mounting
+1 Block
+1 Block
+4 in., 2 Slots
+1 Block
+2 in., 1 Slot
+2 in., 1 Slot
+2 in., 1 Slot
+4 in., 2 Slots
+2 in., 1 Slot
+1 Block
+2 Blocks (on ES Power Supply only)
+Blocks G & H ONLY
+Blocks E & F ONLY
+2 Blocks
+
+S4100-1031 Rev. 11 7/2021
+
+4100ES Addressable Fire Detection and Control Basic Panel Modules and Accessories
+Mounting and Master Controller Bay Module Reference
+
+Figure 14: Mounting and CPU Bay Module Reference
+Note:
+1. Side View dimensions are shown with minimal cabinet and door protrusion from the exterior wall. For 6 in. stud construction with minimum
+protrusion shown, the door will open 90 degrees. To allow the door to open 180 degrees, the exposed cabinet dimension from the exterior wall must
+be a minimum of 3 in. (76 mm) for both 4 in. and 6 in. stud construction.
+2. Asterisks (*) in Figure 14 indicate supplied modules.
+3. A system ground must be provided for earth detection and transient protection devices. This connection shall be made to an approved, dedicated
+earth connection per NFPA 70, article 250, and NFPA 780.
+
+Page 14
+
+S4100-1031 Rev. 11 7/2021
+
+4100ES Addressable Fire Detection and Control Basic Panel Modules and Accessories
+General Specifications
+Table 7: ES Power Supply Specifications (ES-PS and ES-XPS)
+
+Specifications
+AC Input Power
+120 VAC
+220 to 240 VAC
+Total DC Output Power Capacity
+Without Fan
+With 4100-5131 Fan and 4100-5451 IDNAC Module(s)
+With 4100-5131 Fan (without 4100-5451 IDNAC Module)
+With Regulated 24V Appliance Loads (with or without 4100-5131 Fan)
+Special Application Appliance Loads: supports full total DC output
+power capacity ratings above
+Regulated 24V Appliances: reduces total DC output power capacity to
+5.0 A
+Auxiliary Power Tap
+NACs Programmed for Auxiliary Power
+Battery Charger (ES-PS only)
+Battery Ah Capacity
+Charger characteristics and performance
+Environmental
+Operating Temperature
+Operating Humidity
+Option Card Mounting
+
+Rating
+120 to 240 VAC
+3.72 A
+1.82 A
+9.5 A
+9.7 A
+12.7 A
+5.0 A
+Simplex horns, strobes, and combination horn/strobes and speaker/
+strobes (contact your Simplex product representative for compatible
+appliances)
+Power for other UL listed appliances; use associated external
+synchronization modules where required
+2 A maximum (taken from total output power capacity)
+3 A maximum per NAC, 5 A maximum total (taken from total output power
+capacity)
+Sealed Lead-Acid Batteries
+UL/ULC listed for battery charging of up to 110 Ah (batteries larger than 50
+Ah require a remote battery cabinet)
+Temperature compensated, dual rate, recharges depleted batteries within
+48 hours
+32°F to 120°F (0°C to 49°C)
+Up to 93% RH, non-condensing @ 90°F (32°C) maximum
+2 vertical blocks are available fore compatible modules; refer to 579-1288
+installation instructions for additional details
+
+Note:
+1.
+2.
+
+Battery charger is only available on the ES-PS power supply.
+When an ES-PS is used to power Flex-35 or Flex-50 Amplifiers the ES-PS battery charger is not available.
+
+Master Controller Selection Information
+Note for Table 8 and Table 9
+• Supervisory and alarm currents are without IDNet devices. Add IDNet device currents seperately.
+Table 8: 4100ES Master Controller Selection
+
+Model
+4100-9701
+
+4100-9702
+4100-9706
+
+4100-9709
+
+Description
+Includes
+Listings
+ES-PS Master Controller with 2x40 Master Controller – English, 2x40 Display, CPU Card, IDNet 2 UL/ULC
+Display - English
+Card supports up to 250 addressable/analog points, ES Power
+Supply (120 V to 240 V 50/60 Hz, 24 V Aux. Relay, 24 V Aux.
+Power Tap/Simple NAC, 110 Ah Battery Charger) and external
+RUI+ (isolated or un-isolated) communications interface.
+ES-PS Master Controller with 2x40 Same as 4100-9701 above except with Canadian French user ULC
+Display - Canadian French
+interface.
+ES-PS Master Controller with ES
+Same as 4100-9701 above except with Color ES Touch Screen UL/ULC,
+Touch Screen Display
+Display user interface. For dual language support, desired
+CSFM
+language is switch selectable.
+ES-PS Master Controller without
+Same as 4100-9701 above except with no 2x40 Display or
+UL/ULC
+Display - English
+user interface.
+
+Supv.
+Alarm
+277 mA
+321 mA
+(See note) (See note)
+
+362 mA
+441 mA
+(See note) (See note)
+277 mA
+321 mA
+(See note) (See note)
+
+Note:
+1.
+2.
+3.
+
+The Master Controller current draw specifications do not include IDNet, NAC, or IDNAC current draws. These must be added separately as
+required.
+International orders may substitute MX Loop Module (4100-3120) in place of IDNet 2 Module (4100-3117). Refer to data sheet S4100-0059 for
+more details. The 4100-3120 provides the same module and specifications as the 4100-6311 but is dedicated as a Master Controller feature
+selection.
+At the time of publication English and Canadian French languages are available for ES Touch Screen Display models. Contact your local Simplex
+product supplier for the latest status and availability for other languages.
+
+Page 15
+
+S4100-1031 Rev. 11 7/2021
+
+4100ES Addressable Fire Detection and Control Basic Panel Modules and Accessories
+Table 9: 4100ES Master Controller Upgrades for Existing 4100 Series Fire Alarm Control Panels
+
+Model
+4100-7150
+4100-7152
+4100-7158
+
+4100-7162
+4100-7163
+4100-7164
+
+Panel Type
+
+Includes
+New Master Controller CPU card, 4100ES door assembly with 2 x 40 LCD operator interface, and Ethernet
+1000 pt 4100 (4100+)
+connection
+512 pt 4100
+Same as 4100-7150 plus a Universal Power Supply
+New Master Controller CPU card with Ethernet Connection Upgrade Kit (door assembly with user interface
+4100U or1000 pt 4100
+not included) for:
+(4100+) previously
+4100U with or without operator interface, or 4100+ and operator interface, or an existing 4100 (512 pt) or
+upgraded to 4100U
+4100+ (1000 pt) panel that was previously upgraded to a 4100U Master Controller and operator interface
+New Master Controller CPU card, 4100ES door assembly with Color ES Touch Screen Display user interface
+1000 pt 4100 (4100+)
+and Ethernet connection for 4100+ cabinet (requires 4100ES Version 6.01 or higher)
+4100+ Cabinet upgraded 4100ES door assembly with Color ES Touch Screen Display user interface and Ethernet connection for
+with New Master Controller 4100+ cabinet previously upgraded with New Master Controller CPU card (requires 4100ES Version 6.01 or
+CPU card
+higher)
+New Master Controller CPU card, 4100ES door assembly with Color ES Touch Screen Display user interface
+2000 pt 4100 (4100U)
+and Ethernet connection for 4100U cabinet (requires 4100ES Version 6.01 or higher)
+Table 10: ES Touch Screen Display User Interface Upgrade Kit
+
+Model
+4100-7165
+
+Panel type
+4100ES or 4010ES
+
+Description
+New ES Touch Screen Display User Interface for upgrading an existing 4100ES 2x40 LCD or InfoAlarm
+User Interface, or for upgrading an existing 4010ES InfoAlarm User Interface to a new ES Touch Screen
+Display User Interface
+Table 11: Master Controller Accessories
+
+Model
+4100-2300
+4100-2303
+
+Description
+Expansion Bay Assembly; order for each required expansion bay (not required for 4100-9121)
+Legacy Module Stabilizer Bracket, used when expansion bays have legacy slot style modules
+Expansion Bay Upgrade Kit for mounting 4100ES style (4 in. x 5 in. modules) in existing 4100 style panels;
+
+4100-2301
+
+Note: When using this kit to upgrade a 4100+ transponder, a 4100-0620 Transponder Interface Card (TIC) is also required for
+communications to the 4100ES module
+Table 12: Master Controller Upgrades for Existing 4020 Series Fire Alarm Control Panel
+
+Model
+4100-9833
+
+Description
+4020 Master Controller Upgrade to 4100ES; Includes New Master Controller with 2 x 40 LCD & operator interface
+assembly, 8 VDC Converter and RUI+ (isolated or un-isolated) Interface in a single bay cabinet with locking glass door and
+retainer; mounts as an adjunct panel close-nippled to existing 4020 cabinet; also includes 8 VDC box-to-box power and
+communications harness and solid filler panel for the existing 4020 Master Controller bay
+Table 13: ES Touch Screen Display User Interface Upgrade Kit
+
+Model
+4100-7165
+
+Panel type
+4100ES or 4010ES
+
+Description
+New ES Touch Screen Display User Interface for upgrading an existing 4100ES 2x40 LCD or InfoAlarm
+User Interface, or for upgrading an existing 4010ES InfoAlarm User Interface to a new ES Touch Screen
+Display User Interface
+
+Module Selection Information
+Current Calculation Notes
+To determine total supervisory current, add currents of modules in panel to base system value and all external loads powered by panel power
+supplies.
+To determine total alarm current, add currents of modules in panel to base system alarm current and add all panel NAC loads and all external loads
+powered from panel power supplies.
+Table 14: Communication Modules
+
+Description
+Model
+Size
+4100-1291 Un-isolated remote unit interface module (RUI); up to three maximum per control panel
+1 Slot
+4100-6031 Select
+City Circuit, with disconnect switches
+For use
+4100-6032 one per City Circuit, without disconnect switches
+with ES-PS
+ES Power
+only (not
+Supply
+1 Block
+for backup
+4100-6033 (non
+Alarm Relay, three Form C relays, 2 A @ 32 VDC
+ES-PS or
+powerES-XPS)
+limited)
+4100-6038 Dual Port RS-232 with 2120 interface (slot module)
+1 Slot
+Three maximum of
+RS-232 type modules per
+4100-6046 Dual Port RS-232 standard interface (4 in. x 5 in. module)
+1 Block
+panel
+
+Page 16
+
+Supv.
+85 mA
+20 mA
+20 mA
+
+Alarm
+85 mA
+36 mA
+36 mA
+
+15 mA
+
+37 mA
+
+132 mA 132 mA
+60 mA
+
+60 mA
+
+S4100-1031 Rev. 11 7/2021
+
+4100ES Addressable Fire Detection and Control Basic Panel Modules and Accessories
+Table 14: Communication Modules
+
+Model
+Description
+Size
+Supv. Alarm
+4100-6048 VESDA Aspiration System Interface
+1 Slot
+132 mA 132 mA
+DACT, Point or Event Reporting; one shipped unless 4100-7908 is selected; two max. per system; includes two
+4100-6080
+Side Mt. 30 mA 40 mA
+2080-9047 cables, 14 ft (4.3 m) long, RJ45 plug and spade lugs
+Table 15: Connected Services Gateway with IP communicator
+
+Model
+4100-2504
+4100-2506
+
+Description
+Connected Services Gateway with IP communicator, side mount
+Connected Services Gateway with IP communicator, vertical mount
+
+Size
+1 slot
+2 blocks
+
+Table 16: ES Power Supplies
+
+Model
+
+Voltage
+
+Description Includes
+
+Provides
+Size
+Supv.
+Power to Bay
+24 V Aux. Relay, 24 V Aux. Power 2 A Tap/ Simple NAC, 110 Ah Yes
+2 Blocks 68 mA
+Battery Charger, 2 PDI Blocks for compatible option cards.
+Same as ES-PS above, except without battery charger
+No
+
+Alarm
+
+4100-5401
+
+120 to 240 V
+50/60 Hz
+
+ES-PS
+
+77 mA
+
+4100-5402
+
+120 to 240 V
+50/60 Hz
+
+ES-XPS
+
+Table 17: Power supply accessories
+
+Model
+4100-5152
+4100-0156
+4100-5130
+
+4100-5131
+
+4100-0636
+4100-0638
+4100-5403
+4100-0644
+4100-0645
+4100-0646
+4100-0647
+
+Description
+Size
+Current
+12 VDC Power Option, 2 A maximum
+1 Block
+1.5 A maximum
+8 VDC Converter, required for multiple Physical Bridge Modules, 3 A maximum
+1 Block
+included with loads
+Voltage Regulator Module, 22.8 to 26.4 VDC (25 VDC nominal); isolated and
+1 Block
+3 A maximum with 2.5 A load,
+resettable output; includes earth detection circuit and trouble relay for status
+4.9 A maximum with 4 A load
+monitoring.
+ES-PS Fan Module, allows more than one power supply to be installed in a single
+N/A
+0 mA Supv. 200 mA Alarm
+bay and may increase total DC output power capacity per power supply. See Table
+7 for specifications.
+Box Interconnection Harness Kit (non-audio); order one for each close-nippled cabinet
+4100 Slot Module Additional 24 VDC Harness; needed when 4100 Slot module requirements exceed 2 A from ES-PS
+Harness for ES-PS Backup Power Supply
+120 VAC PDM Harness
+One PDM harness is required per power
+supply, select as required for appropriate input
+220 VAC PDM Harness
+voltage
+230 VAC PDM Harness
+240 VAC PDM Harness
+Table 18: Conventional and Addressable Notification Appliance Modules
+
+Model
+
+Description Outputs
+
+Size
+
+4100-5450** Conventional Three 3 A
+NAC Module NACs
+
+1 Block
+
+4100-5451** IDNAC
+Addressable
+Notification
+SLC Module
+
+2 Blocks (on
+ES Power
+Supply only)
+
+Three 3 A
+SLCs
+
+Max Load - Special
+Application*
+On ES-PS /
+In Bay
+ES-XPS
+3.0 A / NAC
+3.0 A / NAC
+9.0 A / Card
+6.0 A / Card
+3.0 A / NAC
+N/A
+9.0 A / Card
+
+Max Load - Regulated 24 V Current Draw
+On ES-PS /
+ES-XPS
+2.0 A / NAC
+5.0 A / Card
+N/A
+
+In Bay
+
+Supv.
+
+Alarm
+
+2.0 A / NAC
+2.0 A / Card
+
+66 mA
+
+66 mA
+
+124 mA
+
+230 mA
+
+*Special Application specifications apply to both Special Application and Steady Aux Power loads during alarm operation. Available power during nonalarm operation is 5.0 A maximum.
+**The 4100-5450 and 4100-5451 can only be powered from a 4100-5401 and 4100-5402 power supply.
+Table 19: Dual Class A Isolator for IDNAC
+
+Model
+4100-6103
+
+Description
+Size
+Dual Class A IDNAC Isolator (DCAI), converts a single Class B IDNAC SLC input to two
+1 Block
+Class A SLC outputs; provides short circuit isolation between each Class A output circuit;
+connect up to two DCAI Modules per IDNAC SLC input up to a maximum of 6 DCAI Modules
+per IDNAC SLC; each isolated output SLC used requires one IDNAC address; the total current
+remains controlled by the Class B input source SLC at 3 A maximum; each isolated loop
+supports up to 30 device addresses
+
+Supv.
+8.3 mA
+
+Alarm
+18.5 mA
+
+Note: Up to 30 additional device addresses may be installed between each 4905-9929
+TrueAlert Addressable Isolator+ Module, not to exceed the maximum address and unit
+loading specifications for the IDNAC channel
+
+Page 17
+
+S4100-1031 Rev. 11 7/2021
+
+4100ES Addressable Fire Detection and Control Basic Panel Modules and Accessories
+Table 20: 8 Zone Initiating Device Circuits
+
+Model
+4100-5005
+4100-5015
+
+Type
+Class B
+Class A
+
+Supv.
+75 mA
+75 mA
+
+Alarm
+195 mA
+195 mA
+
+Note: Modules listed in Table 20 are for use with all 4100U systems and 4100ES systems version 3.05 or earlier. IDC Modules are 1 slot size.
+Table 21: 8-Point Zone/Relay Card
+
+Model
+4100-5013
+
+4100-6305
+
+Description
+Size
+8 point zone/relay 4 in. x 5 in. flat module. Supports eight Class B or four Class A IDCs.
+1 Block
+Mounts in any open block in a master controller or expansion bay. Alarm current shown is
+for eight Class B IDCs using 3.3K end-of-line-resistors with four in alarm and four in standby.
+Standby current shown is for all eight IDCs in standby. Refer to 579-1236 Zone/Relay Module
+Installation Instructions for additional information.
+25 V regulator harness for 8 point zone/relay module. One required for each 8 point zone/
+N/A
+relay module to be powered by the 4100-5130 25 V regulator module. A maximum of five 8
+point zone/relay modules may be powered from the 4100-5130 per bay.
+
+Supv.
+83 mA
+
+Alarm
+295 mA
+
+N/A
+
+N/A
+
+Note: Modules in Table 21 requires 4100ES Version 3.06 or later.
+Table 22: IDNet Addressable Interface Modules
+
+Model
+
+Description
+
+4100-3109
+4100-3117
+
+IDNet 2 Module, 250 point capacity; electrically isolated output with two
+short circuit isolating Class B or Class A output loops, 1 block; standard
+on ES-PS with IDNet 2 Module; alarm currents for 50 and above devices
+includes 20 device LEDs in alarm
+
+4100-3110
+
+4100-3111
+
+Supv.
+Alarm
+no devices
+50 mA
+60 mA
+50 devices
+90 mA
+150 mA
+125 devices
+150 mA
+225 mA
+250 devices
+250 mA
+350 mA
+no devices
+50 mA
+60 mA
+IDNet 2+2 Module, 250 point capacity; electrically isolated output with
+50 devices
+90 mA
+150 mA
+four short circuit isolating Class B or Class A output loops, one block;
+125 devices
+150 mA
+225 mA
+alarm currents for 50 and above devices includes 20 device LEDs in alarm
+250 devices
+250 mA
+350 mA
+IDNet Short Circuit Isolating Loop Output Module; mount up to two on a 4100-3109 or 4100-3117 module; this option is for
+aftermarket field installation only. Total initiating SLCs per CPU, including VESDA Interface is 30.
+
+Note: Loading per IDNet device (no LEDs on) = 0.8 mA supervisory and 1 mA alarm. Each IDNet 2 and IDNet 2+2 Short Circuit Isolating Loop Output
+can be individually controlled for system diagnostics and can be assigned a public point for Fire Alarm Network
+Table 23: MAPNET Addressable Interface Modules
+
+Model
+
+Description
+MAPNET II Module, 127 point capacity, add devices Module without devices
+4100-3102 separately; Module size = 2 Slots; Loading per
+Fully loaded module, total
+MAPNET II device = 1.7 mA
+Isolator Module for MAPNET II communications; converts a single connected SLC into
+four isolated outputs selectable as Class A or Class B; up to two Isolator Modules can be
+4100-3103 connected to one SLC; Module size = 1 Slot;
+
+Supv.
+255 mA
+
+Alarm
+275 mA
+
+471 mA
+
+491 mA
+
+50 mA
+
+50 mA
+
+Note: Compatible with MAPNET II Remote Isolators only
+Table 24: Relay Modules; Non power-limited (for mounting in expansion bay only)
+
+Model
+4100-3202
+4100-3204
+
+Description
+4 DPDT w/feedback
+4 DPDT w/feedback
+
+4100-3206
+
+8 SPDT
+
+Resistive Ratings
+10 A 250 VAC
+2A
+30 VDC/VAC
+30 VDC/120
+3A
+VAC
+
+Inductive Ratings
+10 A
+250 VAC
+1/2 A
+30 VDC/120 VAC
+
+Size
+2 Slots
+1 Block
+
+Supv.
+15 mA
+15 mA
+
+Alarm
+175 mA
+60 mA
+
+1-1/2 A 30 VDC/120 VAC
+
+1 Block
+
+15 mA
+
+190 mA
+
+Table 25: Miscellaneous Accessories
+
+Model
+4100-1279
+4100-9856*
+4100-9857*
+4100-9858*
+4100-9859*
+4100-9868
+4100-9869
+4100-9835
+
+Page 18
+
+Description
+Single blank 2 in. display cover; 4100-2302 provides a single plate for a full bay
+4100ES Canadian French Appliqué Kit; Simplex, 4100ES, Contrôle Incendie
+4100ES English Appliqué Kit; Simplex, 4100ES, Fire Control
+4100ES InfoAlarm Remote Display English Appliqué Kit; Simplex, Operator Interface, 4100ES
+4100ES InfoAlarm Remote Display Canadian French Appliqué Kit; Simplex, Interface de l'operateur, 4100ES
+Special Purpose Appliqué Kit: Simplex, Elevator Recall Control and Supervisory Control Unit, 4100ES
+Special Purpose Appliqué Kit: Simplex, Sprinkler Waterflow and Supervisory Station, 4100ES
+Termination and Address Label Kit (for module marking); provides additional labels for field installed modules
+
+S4100-1031 Rev. 11 7/2021
+
+4100ES Addressable Fire Detection and Control Basic Panel Modules and Accessories
+Table 25: Miscellaneous Accessories
+
+Model
+4100-6034
+2081-9031
+
+Description
+Tamper Switch, one per cabinet assembly if required; monitors solid door for panels with solid door; monitors the internal retainer
+panel for panels with glass door (not the glass door); has a built-in addressable IDNet IAM
+Series resistor for WSO, IDCs (N.O. water flow and tamper on same circuit, wires after water flow and before tamper) 470 Ω, 1 W,
+encapsulated, two 18 AWG leads (0.82 mm2 ), 2 1/2 in. L x 1 3/8 in. W x 1 in. H (64 mm x 35 mm x 25 mm)
+
+Note: * 4100ES English Appliqués are included with 4100ES Upgrade and Retrofit Kits for mounting 4100ES in 4100, 2120, 2001, and Simplex back
+boxes so that upgrades can be easily identified as 4100ES. 4100ES Appliqué Kits are available for applications such as to update Remote InfoAlarm
+Displays connected to a panel that was upgraded to 4100ES or for an existing 4100U when the New Master Controller is upgraded to 4100ES and only
+a software upgrade is required. When required, French appliqués are ordered seprately.
+
+Network Interface and Network Media Card Product Selection
+4100ES fire alarm control units are compatible with Simplex ES Net network or 4120 network fire alarm products.
+• Refer to datasheet S4100-0076 for additional information on compatible ES Net fire alarm products.
+• Refer to datasheet S4100-0056 for additional information on compatible 4120 fire alarm products.
+
+Additional 4100ES and Network Product Reference
+Table 26: Additional 4100ES and Network Product Reference
+
+Subject
+Serial DACT (SDACT) for 4100ES, 4010ES, 4007ES
+Connected Services Gateway - Central Station Communication and SafeLINC Cloud Services
+Battery and Battery Cabinet Reference for 4100ES
+110 Ah Batteries and Cabinets for 4100ES
+4009 IDNet NAC Extender
+4009 IDNAC Repeater
+External 110 Ah Battery Charger for 4100ES, 4010ES
+Graphic I/O Modules for 4100ES, 4010ES, 4007ES
+Interface to VESDA Air Aspiration Detection Systems
+4100ES LED/Switch Modules & Printer
+Master Clock Interface
+4100ES Enclosures
+4100ES Extinguishing Release Applications
+TFX Interface Module
+2120 BMUX Module
+Multiple Signal Fiber Optic Modems for 4120 Networks
+BACpac Ethernet Module
+4120 Network Products and Specifications
+Building Network Interface Card (BNIC)
+SafeLINC Internet Interface
+Emergency Voice/Alarm Communications Equipment with ES-PS Power Supplies
+MINIPLEX Transponders with ES-PS Power Supplies
+NDU with ES-PS Power Supplies for 4120 Network
+4100ES Remote Annunciator Panels with ES-PS Power Supplies
+Remote ES Touch Screen Displays for 4100ES and 4010ES Panels
+ES Net Network Products and Specifications
+NDU with ES-PS Power Supplies for ES Net
+TrueSite Workstation
+TrueSite Incident Commander
+Network System Integrator (NSI) for ES Net and 4120 Networks
+24-Pin Dot Matrix Fire Alarm System Remote Printer
+SCU/RCU Annunciators for 4007ES, 4010ES, 4100ES
+LCD Annunciator for 4100ES
+
+Page 19
+
+Data Sheet
+S2080-0009
+S2080-0091
+S2081-0006
+S2081-0012
+S4009-0002
+S4009-0004
+S4081-0002
+S4100-0005
+S4100-0026
+S4100-0032
+S4100-0033
+S4100-0037
+S4100-0040
+S4100-0042
+S4100-0048
+S4100-0049
+S4100-0051
+S4100-0056
+S4100-0061
+S4100-0062
+S4100-1034
+S4100-1035
+S4100-1036
+S4100-1039
+S4100-1070
+S4100-1076
+S4100-1077
+S4190-0016
+S4190-0020
+S4190-0026
+S4190-0027
+S4602-0001
+S4603-0001
+
+S4100-1031 Rev. 11 7/2021
+
+4100ES Addressable Fire Detection and Control Basic Panel Modules and Accessories
+
+© 2021 Johnson Controls. All rights reserved. All specifications and other information shown were current as of document revision and are subject to change without
+notice. Additional listings may be applicable, contact your local Simplex® product supplier for the latest status. Listings and approvals under Simplex Time Recorder Co.
+Simplex, and the product names listed in this material are marks and/or registered marks. Unauthorized use is strictly prohibited. NFPA 72 and National Fire Alarm Code are
+registered trademarks of the National Fire Protection Association (NFPA).
+
+S4100-1031 Rev. 11 7/2021
+
+Datasheet
+4010ES Fire Control Units
+UL, ULC, CSFM Listed; FM Approved*
+
+4010ES Addressable Fire Detection and Control Basic Control Unit Modules and
+Accessories
+
+Features
+Compatible with Simplex ES Net and 4120 fire alarm networks
+Basic system features:
+• Models available with Color ES Touch Screen Display or Monochrome 2
+line x 40 character display.
+• Capacity for up to 1000 addressable IDNet points, or up to 1000
+addressable MX Loop points and up to 127 VESDA SLI points, with up
+to 2000 points of annunciation and up to 20 internal and external card
+addresses
+• CPU assembly includes dedicated Compact Flash memory for onsite system information storage and convenient Ethernet service port
+access
+• 8 A power supply with up to 2 A of auxiliary power and battery charger
+capacity for up to 110 Ah batteries (UL) or up to 50 Ah batteries (ULC);
+33 Ah max in one bay control cabinet, 50 Ah max with 4100-0650
+battery shelf in two bay control cabinet
+• 4 onboard Class A or B, 3 A NACs and one programmable auxiliary
+relay output rated for 2 A @ 32 VDC
+• Remote annunciator module support through Remote Unit Interface
+(RUI) communications port, either Class B or Class A operation
+• 48 LED Control Unit mount annunciation provides 40 Red and 8 Yellow
+pluggable LEDs (select models), optional LED kits are available for
+custom LED configurations
+
+• 4009 IDNet NAC Extenders (4009A)
+• 4003EC Small Voice Control Units
+• 4098-9757 QuickConnect2 and legacy 4098-9710 QuickConnect
+TrueAlarm smoke sensors
+
+Figure 1: 1-Bay Cabinet with 2 x 40 Monochrome LCD Display
+
+Figure 2: 1-Bay Cabinet with with 2 x 40
+Monochrome LCD Display and LED Annunciation
+
+Optional Main System Supply 2 and door mounted modules, and
+other options include:
+• City Connect Module, with or without disconnect switches
+• Alarm Relay module
+• Battery brackets for seismic area protection
+Optional block space modules include:
+• Fire Alarm Network Interface Card (NIC) for ES Net or 4120
+• Peer to-Peer network communications, supports either Class B or
+Class X operation
+• Ethernet connectivity options include ES Net Network Interface Card,
+Building Network Interface Card (BNIC), SafeLINC Internet Interface,
+and BACpac Ethernet Portal
+• Dual RS-232 Module, for printer or third party interface
+• VESDA Air Aspiration High Level Interface
+• Serial DACT
+• Four point Auxiliary Relay Module
+• Modem or TCP/IP Physical Bridge Network Modules, Class B or Class X
+• Additional IDNet and MX Loop addressable channels
+• 8-Point Zone/Relay Module
+• 4-Point Auxiliary Relay Module with or without feedback
+Compatible with Simplex remotely located:
+• IP communicator compatibility
+• 4606-9102 Remote LCD Annunciator, 4100-9400 Series ES Touch
+Screen Displays, 4100-9400 Series Remote InfoAlarm Command
+Centers, and 4602 Series Status Command Units (SCU) and Remote
+Command Units (RCU) Annunciators
+• 4190 Series Fiber Modems and Physical Bridges
+• 4081 Series, 110 Ah Battery Chargers
+• 4100-7400 Series Graphic Annunciators
+
+Figure 3: 2-Bay Cabinet with 2 x 40 Monochrome LCD Display
+
+4010ES Agency listings*
+• UL 864 - Control Units, System (UOJZ); Control Unit Accessories,
+System, Fire Alarm (UOXX); Control Units, Releasing Device Service
+(SYZV); Smoke Control System Equipment (UUKL)
+• UL 1076 - Proprietary Alarm Units (APOU)
+• UL 1730 - Smoke Detector Monitors and Accessories (UULH)
+• UL 2017 - Emergency Alarm System Control Units, CO detection (FSZI);
+Process Equipment Management (QVAX)
+• ULC-S527 - Control Units, System, Fire Alarm (UOJZ7); Control Unit
+Accessories, System, Fire Alarm (UOXX7); Control Units, Releasing
+Device Service (SYZV7)
+• ULC-S559 - Central Station Fire Alarm System Units (DAYR7)
+• ULC/ORD-C1076 - Proprietary Burglar Alarm System Units (APOU7)
+• ULC/ORD-C100 - Smoke Control System Equipment, (UUKL7)
+
+Introduction
+4010ES series fire detection and control units
+4010ES series fire detection and control units provide leading
+installation, operator, and service features for customer applications
+in the mid-range addressable fire alarm systems market. An onboard
+Ethernet port provides fast external system communications to expedite
+installation and service activity. Dedicated Compact Flash memory
+
+* This product has been approved by the California State Fire Marshal (CSFM) pursuant to Section 13144.1 of the California Health and Safety Code. See CSFM Listing 7165-2269:0541 for allowable
+values and/or conditions concerning material presented in this document. Additional listings may be applicable; contact your local Simplex product supplier for the latest status. Listings and approvals
+under Simplex Time Recorder Co. are the property of Tyco Fire Protection Products.
+
+S4010-0006
+
+Rev. 24
+
+06/2022
+
+4010ES Addressable Fire Detection and Control Basic Control Unit Modules and Accessories
+archiving provides secure on-site system information storage of
+electronic job configuration files.
+Modular design
+A variety of functional modules are available to meet specific system
+requirements. Selections allow control units to be configured for either
+Stand-Alone or Networked fire control operation.
+
+Mechanical description
+• The mounting box provides convenient stud markers for drywall
+thickness and nail hole knockouts for quicker mounting
+• Smooth box surfaces are provided for locally cutting conduit entrance
+holes exactly where required
+• The hinged user interface control unit easily opens for internal access
+• NACs are mounted directly on power supply assemblies providing
+minimized wiring loss, compact size, and readily accessible
+terminations
+• Modules are power-limited except as noted, such as relay modules
+• Doors include tempered glass inserts; boxes and doors are available in
+platinum or red
+• Box and door or retainer assemblies are included with basic control
+unit assemblies
+• Cabinet assembly is rated NEMA 1 and IP 30
+• Cabinet assembly design has been seismic tested and is certified to
+IBC and CBC standards as well as to ASCE 7 categories A through F,
+requires battery brackets as detailed on data sheet Battery Brackets for
+Seismic Activity Applications S2081-0019
+
+Control unit hardware
+Master Controller and Main System Supply 2
+Mounted in the upper section of the 4010ES cabinet. See the loading
+reference diagrams in Cabinet one and two bay loading reference.
+4010ES Block Space Option Cards
+4010ES Block Space Option Cards mount to the left of the 4010ES Main
+System Supply 2. In two bay cabinets block space option cards also
+mount below the 4010ES ESS.
+Other 4010ES options
+The 4010ES City Connect module or the optional Alarm Relay module
+mount directly to the Main System Supply 2. These options are mutually
+exclusive.
+The battery compartment
+The battery compartment is located in the bottom of the 4010ES
+cabinet. The cabinet allows for up to 33 Ah battery capacity for 1 bay
+systems, and 50 Ah for 2 bay systems. 50 Ah batteries also require the
+use of a 4100-0650 battery shelf.
+Figure 13 identifies mounting locations for optional 4010ES modules.
+
+Software feature summary
+• TrueAlarm individual analog sensing with front panel information and
+selection access
+• Dirty TrueAlarm sensor maintenance alerts, service and status reports
+including almost dirty
+• TrueAlarm magnet test indication appears as distinct test abnormal
+message on display when in test mode
+• TrueAlarm sensor peak value performance report
+• Install Mode allows grouping of multiple troubles for uninstalled
+modules and devices into a single trouble condition
+• Module level ground fault searching assists installation and service by
+locating and isolating modules with grounded wiring
+• Recurring Trouble Filtering allows the control unit to recognize,
+process, and log recurring intermittent troubles, such as external
+Page 2
+
+wiring ground faults, but only sends a single outbound system trouble
+to avoid nuisance communications
+• WALKTEST silent or audible system test performs an automatic selfresetting test cycle
+
+Compatible peripheral devices
+The 4010ES is compatible with an extensive list of remote peripheral
+devices including printers and both conventional and addressable
+devices including TrueAlarm analog sensors.
+
+Addressable device control
+The 4010ES provides standard addressable device communications
+for IDNet compatible devices. Using a two wire communications circuit,
+you can interface individual devices such as manual fire alarm stations,
+TrueAlarm sensors, conventional IDC zones, and sprinkler waterflow
+switches to the addressable controller to communicate their identity and
+status.
+Addressability facilitates the display of the location and condition of the
+connected device on the operator interface LCD and on remote system
+annunciators. With addressable devices, you can individually control and
+monitor control circuits such as fans or dampers.
+Addressable operation
+Each addressable device on the communication channel is continuously
+interrogated for status condition such as: normal, off-normal, alarm,
+supervisory, or trouble. Both Class B and Class A pathway operation are
+available. Sophisticated poll and response communication techniques
+ensure supervision integrity and allow for T-tapping of the circuit for
+Class B operation. Devices with LEDs pulse the LED to indicate receipt of
+a communications poll. Use the control unit to turn the LED on steady.
+IDNet addressable channel capacity
+The Main System Supply 2 provides an electrically isolated IDNet2
+signaling line circuit (SLC) that supports up to 250 addressable monitor
+and control points intermixed on the same pair of wires. Additional
+250 address IDNet 2+2 Modules with four short circuit isolating output
+loops are available. IDNet2 and IDNet 2+2 Module SLCs are isolated
+from other system reference voltages to reduce common mode noise
+interaction with adjacent system wiring.
+Table 1: IDNet 2 and IDNet 2+2 SLC wiring specifications
+
+Rating
+Specification
+0 to 125
+4000 ft (1219 m); 50 ohms
+Maximum distance
+from control unit for
+126 to 250
+2500 ft (762 m); 35 ohms
+each device load
+Total wire length allowed with T-taps for Up to 12,500 ft (3.8 km); 0.60
+µF
+Class B wiring
+Maximum capacitance between IDNet
+1 µF
+channels
+Shielded or unshielded, twisted
+Wire type and connections
+or untwisted wire. See note.
+Terminals for 18 to 12 AWG
+Connections
+2
+2
+(0.82 mm to 3.31 mm )
+579-989
+Installation instructions
+Compatibility includes: IDNet communicating devices and TrueAlarm
+sensors including QuickConnect and QuickConnect2 sensors. For more
+information, refer to data sheet S4090-0011.
+Note: Some applications may require shielded wiring. Review your system with your local Simplex product supplier.
+
+TrueAlarm system operation
+Addressable device communications include operation of TrueAlarm
+smoke and temperature sensors. Smoke sensors transmit an output
+value based on their smoke chamber condition and the CPU maintains a
+current value, peak value, and an average value for each sensor.
+S4010-0006 Rev. 24 06/2022
+
+4010ES Addressable Fire Detection and Control Basic Control Unit Modules and Accessories
+Status is determined by comparing the current sensor value to its
+average value. Tracking this average value as a continuously shifting
+reference point filters out environmental factors that cause shifts in
+sensitivity.
+Programmable sensitivity
+The programmable sensitivity of each sensor is selectable at the control
+unit for different levels of smoke obscuration (shown directly in percent)
+or for specific heat detection levels. To evaluate whether the sensitivity
+should be revised, the peak value is stored in memory and can be easily
+read and compared to the alarm threshold directly in percent.
+CO sensor bases
+CO sensor bases combine an electrolytic CO sensing module with a
+TrueAlarm analog sensor to provide a single multiple sensing assembly
+using one system address. You can enable or disable the CO sensor.
+It can be used in LED or Switch mode and custom control. You can
+make it public for communication across a fire alarm network. Refer to
+data sheet TrueAlarm CO Sensor Bases for Smoke, Heat, and Photo/Heat
+Sensors using IDNet Communications S4098-0052 for details.
+TrueAlarm heat sensors
+You can select TrueAlarm heat sensors for fixed temperature detection,
+with or without rate-of-rise detection. Utility temperature sensing is also
+available, typically to provide freeze warnings or alert to HVAC system
+problems. Readings are selectable as either Fahrenheit or Celsius.
+TrueSense early fire detection
+Multi-sensor 4098-9754 provides photoelectric and heat sensor data
+using a single 4010ES IDNet address. The control unit evaluates smoke
+activity, heat activity, and their combination, to provide TrueSense
+early detection. For more details on this operation, refer to data sheet
+TrueAlarm Multi-Sensor Model A4098-9754 Providing TrueSense Early Fire
+Detection S4098-0024 .
+
+Diagnostics and default device type
+Sensor status
+TrueAlarm operation allows the control unit to automatically indicate
+when a sensor is almost dirty, dirty, and excessively dirty. The NFPA 72
+requirement for a test of the sensitivity range of the sensors is fulfilled
+by the ability of TrueAlarm operation to maintain the sensitivity level of
+each sensor. CO sensors track their 10 year active life status providing
+indicators to assist with service planning. Indicators occur at: 1 year, 6
+months, and when end of life is reached.
+Modular TrueAlarm sensors
+Modular TrueAlarm sensors use the same base and different sensor
+types (smoke or heat sensor) and can be easily interchanged to
+meet specific location requirements. This allows intentional sensor
+substitution during building construction when conditions are
+temporarily dusty, instead of covering smoke sensors, causing them
+to be disabled. Heat sensors may be installed without reprogramming
+the control unit. The control unit will indicate an incorrect sensor type,
+but the heat sensor will operate at a default sensitivity to provide heat
+detection for building protection at that location.
+
+• Downtime is reduced because the system stays running during
+download
+• Modifications can be uploaded as well as downloaded for greater
+service flexibility
+• Mass Storage allows job specific files to be stored in the control unit
+such as test and inspection reports, record drawings, specifications,
+and more
+• RUI (Remote Unit Interface) communications port supports either Class
+B or Class A operation for remote annunciation equipment
+
+Basic control unit description
+4010ES control units include:
+• The Main System Supply 2 provides the power source and the input/
+output connections for the basic 4010ES control unit listed below
+• An operator interface, master controller with Compact Flash, IDNet or
+MX Loop addressable device SLC(s) with short circuit isolating loops
+configurable for Class B or Class A operation.
+• 8 A power supply with up to 2 A of auxiliary power, 110 Ah (UL)/50
+Ah (ULC) battery charger (33 Ah maximum in one-bay cabinet, 50 Ah
+maximum with 4100-0650 battery shelf in two-bay control cabinet);
+four Class A or Class B NACs rated @ 3 A each for Special Application
+Appliances, selectable for synchronized strobe, or SmartSync horn/
+strobe operation over two wires; and 2 A for Regulated 24 DC
+operation; one programmable auxiliary relay rated for 2 A @ 32 VDC.
+• One RUI Class B or Class A communications port for remote
+annunciation devices, cabinet and door.
+• Support for up to 20 internal and external card addresses. Other
+standard options may be provided depending on model. See Basic
+control unit model selection, one bay control units and Basic control
+unit model selection, two bay control units for additional details on
+specific models.
+8-Point Zone/Relay module details
+• Select as IDC or Relay; configure up to eight Class B IDCs, or up to
+four Class A IDCs; or up to eight Relay outputs rated 2 A resistive @ 30
+VDC (N.O. or N.C.); or combinations of IDCs and Relays; each zone is
+separately configurable as an IDC or Relay output.
+• IDC support: each IDC supports up to 30, two-wire devices. Zone relay
+modules may be powered directly from the control unit power supply
+or through the optional 25 VDC regulator module where required for
+2-wire detector compatibility. Refer to 2-Wire Detector Compatibility
+Chart 579-832 for additional details.
+• IDC EOL resistor values are selectable as: 3.3 kOhms, 2 kOhms,
+2.2 kOhms, 3.4 kOhms, 3.9 kOhms, 4.7 kOhms, 5.1 kOhms, 5.6 kOhms,
+6.34/6.8 kOhms, and 3.6 kOhms + 1.1 kOhms. For more details refer to
+Zone/Relay Module Installation Instructions 579-1236.
+
+Master controller (CPU)
+• The 4010ES Master Controller includes dedicated Compact Flash
+mass storage memory for on-site system information storage and
+convenient Ethernet service port access
+• Convenient front panel accessed Ethernet port for quick and easy
+download of site-specific programming and firmware enhancements.
+Firmware enhancements are made through software downloads to the
+onboard flash memory.
+• Every downloaded job is automatically stored to Compact Flash
+without overwriting earlier versions providing a means for recovering
+previous configurations
+Page 3
+
+S4010-0006 Rev. 24 06/2022
+
+4010ES Addressable Fire Detection and Control Basic Control Unit Modules and Accessories
+Color ES touch screen display
+The Color ES Touch Screen Display interface offers intuitive operation similar to a tablet or smart phone. With a larger area format versus an individual
+text line display, more information is available at a glance, and minimal key presses are needed to access detailed information.
+
+Figure 4: ES Touch screen display operator interface
+
+Features
+ES Touch Screen Displays provide customized operating experience
+• Event activity display choices include: First 8 Events; or First 7 Events with emphasis on Most Recent; or First 6 Events with emphasis on First and
+Most Recent, individually selectable for each event type.
+• System reports are easily viewable. You can read logs with minimal scrolling.
+• Up to two languages are available for each system, easily selected by programmable key press
+• You can vector by point or zone, information sent to remote ES Touch Screen Displays.
+• Both Hard and Soft keys available for the following critical functions: Event Acknowledge, Alarm Silence, and Reset Functions
+• Resistive touchscreen technology allows for operation with or without gloves.
+• Seven programmable RGY LEDs available for user-defined display status. Up to two status conditions for each LED.
+• Seven programmable Soft keys available for user-defined control or maintenance functions
+• PRI2 Soft key label can be changed to CO to annunciate Carbon Monoxide detection status
+• You can program the ES Touch Screen Display to report individual points or groups of points as a single zone.
+• You can display a custom watermark background file of a company logo or other desired display content.
+• Seismically compliant under the State of California Statewide Office of Housing and Development (OSHPD) Special Seismic Certification (SSC) program
+guidelines. Refer to Simplex Seismic Application Guide (579-1213) and Battery Brackets for Seismic Activity Applications (S2081-0019) for details.
+
+Page 4
+
+S4010-0006 Rev. 24 06/2022
+
+4010ES Addressable Fire Detection and Control Basic Control Unit Modules and Accessories
+Display properties
+• 8 inch (203 mm) diagonal, 800 x 600 resolution color touch screen display capable of annunciating up to 8 active events without scrolling
+• Bright white LED backlighting provides efficient and long lasting illumination; backlight is dim in quiescent state, automatically switches to full power
+on touch or on event activity in system.
+
+Description
+ES Touch Screen Displays for 4010ES fire alarm systems provide a large display with extended information content, dual language support including
+UTF-8 character languages, and an intuitive control key interface with the following features:
+• Each 4010ES control panel supports up to 8 ES Touch Screen Displays, one main and seven remote. It can enable one ES Touch Screen Display to
+take-control and to designate access levels for interfaces not in-control; you can assign programmable LEDs to in-control status indications.
+• Menu-driven format conveniently prompts operators for the next action required
+• Direct point callup displays individual points alphabetically and then homes in on the logical choice as more point information is entered
+• Event categories are color coded for quick visual representation; Red for Alarm and Priority 2 Events; Yellow for Supervisory and Trouble events
+• Date formats are either MM/DD/YY or DD/MM/YY
+• Time formats are either 24 hour or 12 hour with AM/PM
+• System Normal screen supports a color background (watermark) for company name, company logo, or other desired display content.
+
+Page 5
+
+S4010-0006 Rev. 24 06/2022
+
+4010ES Addressable Fire Detection and Control Basic Control Unit Modules and Accessories
+Example display screens
+
+Figure 5: First and most recent alarm display
+
+Page 6
+
+Figure 6: Main Menu
+
+Figure 7: First eight active Trouble events list
+
+Figure 8: Direct point callup
+
+Figure 9: Alarm history log
+
+Figure 10: Detailed point status screen for TrueAlert ES appliance
+
+S4010-0006 Rev. 24 06/2022
+
+4010ES Addressable Fire Detection and Control Basic Control Unit Modules and Accessories
+Specifications
+Table 2: General ES touch screen display specifications
+
+Specification
+Resolution
+Size / Type
+Touch Screen Technology
+Event Display
+Normal Screen Custom Watermark File Format
+Environmental
+
+Rating
+800 x 600 pixels (RGB)
+8 inch (203 mm) Diagonal / Color Touch Screen
+Resistive
+Up to 8 Events without scrolling
+680 x 484 pixels. BMP, JPG, TIFF, GIF or PNG file format
+Operating Temperature: 32°F to 120°F (0°C to 49°C)
+Operating Humidity: Up to 93% RH, non-condensing at a maximum of 90°F
+(32°C).
+
+Operator Interface with Monochrome 2x40 LCD Features
+• Provides convenient and extensive operator information using a logical, menu-driven display
+• Multiple automatic and manual diagnostics for maintenance reduction
+• Convenient PC programmer label editing
+• Password access control
+• Alarm and Trouble History Logs for up to 2000 total events are available for viewing from the LCD, or capable of being printed to a connected printer,
+or downloaded to a service computer
+
+Figure 11: Operator interface
+
+Page 7
+
+S4010-0006 Rev. 24 06/2022
+
+4010ES Addressable Fire Detection and Control Basic Control Unit Modules and Accessories
+Basic control unit model selection, one bay control units
+Supervisory and Alarm current specifications are for determining battery standby requirements. Current specifications include an active RUI channel.
+Models with an IDNet channel include 20 IDNet device LEDs activated in alarm. Models with MX communications include module base current. Actual
+IDNet or MX channel device current is not included, see Addressable device load specifications for battery standby for details. For models with 48 LED
+Annunciation, alarm also includes 24 LEDs activated.
+Table 3: Basic control unit model selection, one bay control units
+
+Model
+4010-9401
+4010-9401BA
+4010-9402
+4010-9402BA
+4010-9501
+4010-9501BA
+4010-9502
+4010-9502BA
+4010-9403
+4010-9404
+
+4010-9505
+
+Control
+Language
+Listing
+unit
+and voltage
+color
+English 120
+Red
+UL, FM
+VAC
+English 120
+VAC
+English 220
+Red
+VAC to 240
+VAC
+English 220
+Platinum VAC to 240
+VAC
+English 120
+Red
+VAC
+English 120
+Platinum
+VAC
+Platinum
+
+Red
+
+English 220
+VAC to 240
+VAC
+
+UL, FM
+UL, FM
+
+Features
+
+Supv. current
+
+Alarm
+current
+
+Basic Control Unit with 2x40 LCD Operator
+Interface and one two-loop Isolated IDNet2
+Communications Channel, Class A or Class 316 mA
+B operation, with support for up to 250
+addressable IDNet points
+
+430 mA
+
+Same features as above with 48 LED
+annunciation
+
+336 mA
+
+495 mA
+
+Basic Control Unit with 2x40 LCD Operator
+Interface and (1) ESMX Loop Channel
+364 mA
+Class A or B with support for up to 250
+addressable MX Loop points
+
+432 mA
+
+UL, FM
+UL, ULC, FM
+UL, ULC, FM
+
+UL
+
+Available
+option
+blocks
+
+Three
+4 in. x 5 in.
+blocks
+
+Three
+4 in. x 5 in.
+block
+
+Note: Model numbers ending in BA are assembled in the USA.
+
+Page 8
+
+S4010-0006 Rev. 24 06/2022
+
+4010ES Addressable Fire Detection and Control Basic Control Unit Modules and Accessories
+Basic control unit model selection, two bay control units
+Note: Supervisory and Alarm current specifications are for determining battery standby requirements. Current specifications include an active RUI
+channel. Models with IDNet channels include 20 IDNet device LEDs activated in alarm for each channel. Models with MX communications include
+unloaded module current only. Actual IDNet or MX channel device current is not included, see Addressable device load specifications for battery
+standby for details.
+Table 4: Basic control unit model selection, two bay control units
+
+Control unit Language and
+color
+voltage
+
+Listings
+
+Red
+
+English 120 VAC
+
+UL, FM
+
+Platinum
+
+English 120 VAC
+
+4010-9423
+
+Red
+
+English 120 VAC
+
+4010-9428
+
+Platinum
+
+English 120 VAC
+
+Red
+
+English 120 VAC
+
+UL, FM
+
+Platinum
+
+English 120 VAC
+
+UL, FM
+
+Model
+4010-9421
+4010-9421BA
+4010-9422
+4010-9422BA
+
+4010-9425
+4010-9425BA
+4010-9426
+4010-9426BA
+
+Features
+
+Basic Control Unit with 2x40 LCD
+Operator Interface, one two-loop
+isolated IDNet2 Communications
+Channel and one four-loop Isolated
+IDNet 2+2 Communications
+UL, FM
+Channel Module, Class A or Class B
+operation, with support for up to 500
+addressable IDNet points
+UL, ULC, FM Same features as above with 48 LED
+annunciation; alarm current includes
+UL, ULC, FM
+24 annunciator LEDs activated
+
+4010-9435
+
+Red
+
+120 VAC (multiple
+languages available,
+contact your local
+Simplex product
+supplier for details)
+
+4010-9521
+4010-9521BA
+
+Red
+
+English 220 VAC to
+240 VAC
+
+UL, FM
+
+4010-9522
+
+Platinum
+
+English 220 VAC to
+240 VAC
+
+UL, FM
+
+UL, ULC,
+CSFM
+
+Same as 4010-9421 except with
+InfoAlarm Operator Interface
+
+Available
+Supv.
+option blocks current
+
+Alarm
+current
+
+391 mA
+
+545 mA
+
+411 mA
+
+610 mA
+
+473 mA
+
+611 mA
+
+Ten 4 in. x 5 in.
+Basic control unit with ES Touch
+blocks
+Screen Operator Interface and
+one two-loop Isolated IDNet2
+Communications Channel, one
+four-loop Isolated IDNet 2+2
+486 mA
+Communications Channel Module,
+Class A or Class B operation, with
+support for up to 500 addressable
+IDNet points
+Basic Control Unit with 2x40 LCD
+Operator Interface, one two-loop
+isolated IDNet2 Communications
+Channel and one four-loop Isolated
+391 mA
+IDNet 2+2 Communications
+Channel Module, Class A or Class B
+operation, with support for up to 500
+addressable IDNet points
+
+661 mA
+
+545 mA
+
+* Products with suffix “BA” are assembled in the USA.
+
+Page 9
+
+S4010-0006 Rev. 24 06/2022
+
+4010ES Addressable Fire Detection and Control Basic Control Unit Modules and Accessories
+Addressable device load specifications for battery standby
+Table 5: Addressable device load specifications for battery standby
+
+Addressable channel
+Device load
+With 50 devices add
+IDNet2 and IDNet 2+2 Channel Device
+Currents. 20 device LEDs in alarm are included With 125 devices add
+with control unit and module currents
+See Table 6 for current draw for each IDNet
+With 250 devices add
+device.
+ESMX Loop Card
+With 250 devices add
+4 A output alarm, 2.5 A standby add
+3.5 A output alarm, 2.0 A standby add
+25V Regulator for MX Loop
+3.0 A output alarm, 1.5 A standby add
+2.5 A output alarm, 1.0 A standby add
+2.0 A output alarm, 0.5 A standby add
+
+Supervisory current
+40 mA
+100 mA
+
+Alarm current
+50 mA
+125 mA
+
+200 mA
+
+250 mA
+
+1.135 A
+4.68 A
+4.2 A
+3.6 A
+2.87 A
+2.4 A
+
+1.135 A
+3.0 A
+2.4 A
+1.8 A
+1.2 A
+630 mA
+
+Table 6: Current draw for each IDNet device
+
+Condition
+Current
+Standby
+0.8 mA
+Alarm, with LED off
+1.0 mA
+Alarm, with LED on
+3.0 mA
+Note: A maximum of 20 devices with LED on is supported for each channel. Additional device LEDs do not turn on.
+
+Block space option card selection
+Note: Maximum block option module quantities may require two-bay cabinets. One-bay cabinets are limited to three option block spaces total. See
+Figure 13 for option module availability. Supervisory and Alarm current specifications consider no load on addressable channels except as noted. See
+Addressable device load specifications for battery standby for battery standby.
+Table 7: Single block option modules
+
+Model
+
+Features
+
+Supervisory current
+
+Alarm current
+
+Serial DACT
+4010-9912
+
+Note: Must mount in Block D under Main System Sup- 30 mA
+ply 2
+
+40 mA
+
+4010-9908
+
+4-point Aux Relay Module
+
+60 mA
+
+4010-9916
+
+4010-9918
+4010-9915
+4010-9901
+
+4010-9935
+
+4010-9936
+
+Page 10
+
+15 mA
+
+Voltage Regulator Module, 22.8 VDC to 26.4 VDC (25
+VDC nominal); isolated and resettable output; includes
+earth detection circuit and trouble relay for status
+3 A maximum with 2.5 A load 4.9 A maximum with 4 A load
+monitoring. One 4010-6305 harness, see below, is
+required for each 4010-9935 module powered from
+the 4010-9916.
+Dual RS-232 Module
+60 mA
+BACpac Ethernet Portal Module; requires 4010-9918
+123 mA
+RS-232 Module, no address required
+VESDA HLI
+8-point zone/relay 4 in. x 5 in. flat module. Supports
+eight Class B or four Class A IDCs. Mounts in any open
+block in a master controller or expansion bay. Alarm
+current shown is for 8 Class B IDCs using 3.3K end-of83 mA
+line-resistors with 4 in. alarm and 4 in. standby. Standby
+current shown is for all 8 IDCs in standby. Refer to
+Zone/Relay Module Installation Instructions 579-1236
+for additional information.
+4 DPDT Auxiliary Relays with feedback, contacts rated
+for 2A Resistive/0.5A Inductive @ 30 VDC or 0.5A
+Resistive/0.5A Inductive @ 120VAC. See 579-1306
+18 mA
+installation instructions for additional information
+
+60 mA
+
+Option block
+usage
+One block
+(must mount
+in top bay,
+block D)
+One block (11
+maximum)
+One block
+(one
+maximum)
+One block
+(three
+maximum)
+One block
+(one
+maximum)
+
+295 mA
+
+One block (11
+maximum)
+
+65 mA
+
+One block (11
+maximum)
+
+S4010-0006 Rev. 24 06/2022
+
+4010ES Addressable Fire Detection and Control Basic Control Unit Modules and Accessories
+Table 7: Single block option modules
+
+Model
+
+4100-6305
+
+4010-9929
+
+Features
+
+Supervisory current
+
+Option block
+usage
+
+Alarm current
+
+5 25V regulator harness for 8-point zone/relay module.
+One required for each 8-point zone/relay module,
+powered by the 4100-9916 25V regulator module.
+You can power a maximum of five 8-point zone/relay
+modules from the 4100-9916 for each bay.
+No device
+IDNet 2+2 Module, 250 point
+50 mA
+capacity; electrically isolated output 50 devices
+90 mA
+with four short circuit isolating Class 125 devices
+150 mA
+B or Class A output loops; alarm
+currents for 50 and above devices
+250 mA
+includes 20 device LEDs in alarm. See 250 devices
+Table 5 for individual device currents.
+
+N/A
+
+60 mA
+150 mA
+225 mA
+
+One block
+(three max)
+
+350 mA
+
+Table 8: Dual vertical block (flat) modules**
+
+Model
+
+4010-9928
+
+4010-9923
+
+Features
+Option block Usage
+Supervisory current
+For one bay control units
+only. Dual Vertical Block Card
+Mounting Kit, allows selecting
+Two Vertical Blocks (one max, mounts in top
+N/A
+two, dual Vertical Block (flat)
+bay, block space A ans B only)
+modules from the list below;
+mounts at right angle to chassis,
+note block usage details
+SafeLINC Internet Interface
+2 Vertical Blocks (1 max)
+115 mA
+
+Alarm
+
+N/A
+
+115 mA
+
+* UL, ULC, and CSFM Listed.
+** For details on other dual vertical block network options refer to data sheets S4100-0029, S4100-0056, S4100-0057, S4100-0076 , and S4100-0061 .
+Table 9: Additional option modules with special option block usage
+
+Model
+4010-6311
+4010-6312
+
+Features
+
+Supervisory
+current
+
+Option block usage
+
+ESMX Loop Card supports
+One 4 in. x 5 in. block
+up to 250 points
+ESMX Optional Loop
+N/A
+Mezzanine Card
+
+Alarm
+
+118 mA (no devices) 118 mA (no devices)
+4 mA (no devices)
+
+4 mA (no devices)
+
+Additional control unit feature selection (block space is not used)
+Table 10: Additional control unit features
+
+Model
+4010-9909
+4010-9910
+4010-9911
+4100-5128
+
+Features
+
+Supervisory current
+
+Alarm current
+
+Mounting requirements
+Mounts on Main System
+City Connect Module w/ disconnect switches
+20 mA
+36 mA
+Supply (one max)
+20 mA
+Mounts on Main System
+City Connect Module
+36 mA
+Supply (one max)
+Mounts on Main System
+Alarm Relay Module
+15 mA
+37 mA
+Supply (one max)
+Battery Distribution Terminal Block, mounts to side of box, required when battery connection leaves the 4010ES box. Also used in
+the 4100ES fire alarm control unit.
+
+Network interface and Network Media Card product selection
+4010ES fire alarm control units are compatible with Simplex ES Net network or 4120 network fire alarm products.
+• Refer to datasheet S4100-0076 for additional information on compatible ES Net fire alarm products.
+• Refer to datasheet S4100-0056 for additional information on compatible 4120 network fire alarm products.
+• Refer to datasheet S4100-0061 for additional information on the BNIC.
+
+Page 11
+
+S4010-0006 Rev. 24 06/2022
+
+4010ES Addressable Fire Detection and Control Basic Control Unit Modules and Accessories
+Cabinet dimension reference
+
+Figure 12: Cabinet dimension reference
+Note: Side view dimensions are shown with minimal cabinet and door protrusion from the exterior wall. For 6 in. stud construction with minimum
+protrusion shown, the door will open 90 degrees. To allow the door to open 180 degrees, the exposed cabinet dimension from the exterior wall must
+be a minimum of 3 in. (76 mm) for both 4 in. and 6 in. stud construction.
+
+Cabinet one and two bay loading reference
+
+Figure 13: Loading reference
+Note: Some spaces may be used by basic control unit features.
+
+Page 12
+
+S4010-0006 Rev. 24 06/2022
+
+4010ES Addressable Fire Detection and Control Basic Control Unit Modules and Accessories
+Miscellaneous accessories
+Table 11: LED kits (LEDs are pluggable, use to change color for local application requirements)
+
+Model
+4100-9843
+4100-9844
+4100-9845
+4100-9855
+4100-0650
+4010-9831
+
+Description
+8 Yellow LED Kit
+8 Green LED Kit
+8 Red LED Kit
+8 Blue LED Kit
+Battery Shelf, required for 50 Ah batteries in two bay cabinets only
+French Applique Kit for ES Touch Screen Display Panels (order separately as required for Canadian French
+panels)
+Table 12: Factory Programming Tools
+
+Model
+4010-0831
+4010-8810
+
+Description
+Custom Labels and Programming (requires 4010-8810)
+Factory Programming (select)
+
+General specifications
+Table 13: General specifications
+
+Specification
+AC input current
+Power supply output ratings
+(nominal 28 VDC on AC, 24
+VDC on battery backup)
+Special Application
+appliances, maximum of 70
+appliances for each NAC
+Regulated 24 DC appliances
+
+Rating
+120 VAC Models
+Battery
+Total power supply output
+rating
+Auxiliary power tap
+
+4 A maximum, 120 VAC @ 60 Hz nominal
+9 A maximum @ 24 VDC (during battery operation)
+Including module currents and auxiliary power outputs;
+8 A total for Special Application appliances; 4 A total for
+Regulated 24 DC power (see below for details)
+2 A maximum, rated 19.1 VDC to 31.1 VDC
+
+Output switches to
+battery backup during
+mains AC failure or
+brownout conditions
+
+Simplex 4901, 4903, 4904, and 4906 Series horns, strobes, and combination horn or strobes and speaker or
+strobes. Contact your Simplex product representative for compatible appliances.
+
+Power for other UL listed appliances; use associated external synchronization modules where required
+Battery capacity range
+See data sheet S2081-0012 for further details.
+Battery charger rating (sealed
+Charger characteristics and
+Temperature compensated, dual rate, recharges depleted batteries within 48 hours
+lead acid batteries)
+performance
+per UL Standard 864; to 70% capacity in 12 hours per ULC Standard S527
+Battery current
+9 A maximum @ 24 VDC (during battery operation)
+Operating temperature
+32°F to 120°F (0°C to 49°C)
+Environmental
+Operating humidity
+Up to 93% RH, non-condensing @ 90°F (32°C) maximum
+Installation instructions
+579-989
+Additional technical
+reference
+Operating instructions
+579-969
+
+Page 13
+
+S4010-0006 Rev. 24 06/2022
+
+4010ES Addressable Fire Detection and Control Basic Control Unit Modules and Accessories
+4010ES card address allocation
+The 4010ES has a maximum internal and external card address limit of 20 card addresses. See Table 14 below to calculate 4010ES card address
+allocation.
+Table 14 is a list of 4010ES equipment and the quantity of card addresses they consume.
+1. For the applicable control unit, write in the card address consumption value in the card address allocation column. Select one control unit only.
+2. For the option cards to be installed on the 4010ES, write in the Card address consumption value in the card address allocation column.
+3. Total the card address allocation column. The total must not exceed 20.
+
+Table 14: Card address allocation
+
+Model
+
+Description
+
+Card address
+consumption
+
+Card
+address
+allocation
+
+Control Units - select one
+4010-9401
+4010-9401BA
+4010-9402
+4010-9402BA
+4010-9501
+4010-9501BA
+4010-9502
+4010-9502BA
+4010-9505
+4010-9403
+4010-9404
+4010-9423
+4010-9428
+4010-9421
+4010-9421BA
+4010-9422
+4010-9422BA
+4010-9521
+4010-9521BA
+4010-9522
+4010-9425
+4010-9425BA
+4010-9426
+4010-9426BA
+4010-9526BA
+
+2x40 Display, (1) IDNet2 Communications Channel; or (1) ESMX Channel, 1-Bay Box
+
+2
+
+2x40 Display, one IDNet2 Communications Channel, 48 Pluggable LED Module, one bay Box
+
+3
+
+2x40 Display, one IDNet2 and one IDNet2+2 Communications Channel, 48 Pluggable LED
+Module, two bay Box
+
+4
+
+2x40 Display, one IDNet2 Communications Channel and one IDNet 2+2 Communications
+Channel, 2-Bay Box
+
+3
+
+InfoAlarm Display, one IDNet2 and one IDNet 2+2 Communications Channel, 2-Bay Box
+
+4
+
+InfoAlarm Display, (1) IDNet2 Communications Channel, 2-Bay Box
+
+3
+
+ES Color Touch Screen Display, one IDNet2 Communications Channel and one IDNet 2+2
+4010-9435
+Communications Channel, 2 Bay Box
+Control Unit Option Cards - select as required
+Flat VESDA HLI Card
+4010-9901
+
+4
+1
+
+4010-9922
+
+Flat 4120 Network Interface Card
+
+1
+
+4010-6310
+
+Flat ES Net Network Interface Card
+
+1
+
+4010-9908
+
+4 Point Flat Aux Relay Module
+
+1
+
+4010-9912
+
+Serial DACT
+
+1
+
+4010-9923
+
+SafeLINC Internet Interface Card
+
+1
+
+4010-9914
+
+Building Network Interface Card
+
+1
+
+4010-6311
+
+ESMX Loop Card
+
+1
+
+4010-6312
+
+ESMX Optional Mezzanine Card
+
+0
+
+4010-9918
+
+Dual RS-232 Module
+
+1
+
+4010-9935
+
+8 point zone/relay 4x5” flat module
+
+1
+
+4010-9929
+
+IDNet 2+2 Communications Module
+
+1
+
+4010-9936
+
+4-Point Auxiliary Relay Module with feedback
+
+1
+
+Remote Annunciation - select as required
+
+Page 14
+
+S4010-0006 Rev. 24 06/2022
+
+4010ES Addressable Fire Detection and Control Basic Control Unit Modules and Accessories
+Table 14: Card address allocation
+
+Model
+
+Card address
+consumption
+
+Description
+
+4100-9401
+
+Red Cabinet, English
+
+2
+
+4100-9403
+
+Platinum Cabinet, English
+
+2
+
+Red Cabinet, French
+
+2
+
+Platinum Cabinet, French
+
+2
+
+Red Cabinet, with blank inserts for key labels
+
+2
+
+4100-9421
+4100-9423
+4100-9441
+4100-9443
+4100-9404
+4100-9405
+
+Remote InfoAlarm
+Command Center
+
+2
+
+4606-9102
+
+Platinum Cabinet, with blank inserts for key labels
+Remote ES Touch Red Cabinet
+Screen Display
+Platinum Cabinet
+4010ES RUI LCD Annunciator, English
+
+4606-9102BA
+
+4010ES RUI LCD Annunciator, English
+
+1
+
+4606-9102CF
+
+4010ES RUI LCD Annunciator, French
+
+1
+
+4602-9101
+
+Status Command Unit (SCU) LED Annunciator
+
+1
+
+4602-9102
+
+Remote Command Unit (RCU) LED Annunciator w/control
+
+1
+
+4602-9150
+
+Graphic I/O RCU/SCU Assembly for custom annunciator Control Units
+
+1
+
+4602-7101
+
+Graphic I/O RCU/SCU Assembly for custom annunciator Control Units
+
+1
+
+4602-7001
+
+RCU for cabinet mount
+
+1
+
+4602-6001
+
+SCU for cabinet mount
+
+1
+
+4100-7401
+
+24 Point I/O Graphic Module (requires mounting cabinet)
+
+1
+
+4100-7402
+
+64/64 LED Switch Controller for custom annunciator Control Units
+
+1
+
+4100-7403
+
+32 Point LED Driver Module for custom annunciator Control Units
+
+1
+
+4100-7404
+
+32 Point Switch Input Module for custom annunciator Control Units
+Total card addresses - not to exceed 20
+
+Card
+address
+allocation
+
+1
+1
+
+1
+TOTAL
+
+Note: (BA) means available with or without BA suffix; products with suffix BA are assembled in the USA
+
+Page 15
+
+S4010-0006 Rev. 24 06/2022
+
+4010ES Addressable Fire Detection and Control Basic Control Unit Modules and Accessories
+Additional 4010ES and network product reference
+Table 15: Additional 4010ES and network product reference
+
+Subject
+Serial DACT (SDACT) for 4100ES, 4010ES, 4007ES
+Seismic Battery Brackets Reference
+4003EC Voice Control Unit
+4009 IDNet NAC Extender
+4010ES FACUs with Conventional Notification
+4010ES Extinguishing Release Applications
+4010ES Extinguishing Release Applications (INTL)
+InfoAlarm Command Center for the 4010ES FACUs
+InfoAlarm Command Center for the 4010ES FACUs (INTL)
+4010ES FACUs with Addressable Notification
+4010ES FACUs with Addressable Notification (INTL)
+External 110 Ah Battery Charger for 4100ES, 4010ES
+Graphic I/O Modules for 4100ES, 4010ES, 4007ES
+Interface to VESDA Air Aspiration Detection Systems
+Multiple Signal Fiber Optic Modems for 4120 Networks
+BACpac Ethernet Module
+4120 Network Products and Specifications
+Building Network Interface Card (BNIC)
+SafeLINC Internet Interface
+ES Net Network Products and Specifications
+NDU with ES-PS Power Supplies for 4120 Network
+Remote ES Touch Screen Displays for 4100ES and 4010ES Panels
+NDU with ES-PS Power Supplies for ES Net
+TrueSite Workstation
+TrueSite Incident Commander
+24-Pin Dot Matrix Fire Alarm System Remote Printer
+SCU/RCU Annunciators
+4606-9102 Remote LCD Annunciator
+
+Data sheet
+S2080-0009
+S2081-0019
+S4003-0002
+S4009-0002
+S4010-0004
+S4010-0005
+S4010-0007
+S4010-0008
+S4010-0009
+S4010-0011
+S4010-0012
+S4081-0002
+S4100-0005
+S4100-0026
+S4100-0049
+S4100-0051
+S4100-0056
+S4100-0061
+S4100-0062
+S4100-0076
+S4100-1036
+S4100-1070
+S4100-1077
+S4190-0016
+S4190-0020
+S4190-0027
+S4602-0001
+S4606-0002
+
+© 2022 Johnson Controls. All rights reserved. All specifications and other information shown were current as of document revision and are subject to change without notice.
+Additional listings may be applicable, contact your local Simplex® product supplier for the latest status. Listings and approvals under Simplex Time Recorder Co. Simplex,
+and the product names listed in this material are marks or registered marks. Unauthorized use is strictly prohibited. NFPA 72 and National Fire Alarm Code are registered
+trademarks of the National Fire Protection Association (NFPA).
+
+S4010-0006 Rev. 24 06/2022
+
+Datasheet
+4007ES Fire Control Units
+UL, ULC, CSFM Listed; FM, NYC
+Fire Dept Approved*
+
+4007ES Hybrid, Fire Detection and Control Unit with Addressable and/or Conventional
+Initiation
+
+Features
+Compatible with Simplex ES Net and 4120 fire alarm networks
+Satisfies a variety of new and retrofit applications
+4.3 in. (109 mm) diagonal color touchscreen display:
+• Provides detailed system status and point information
+• Supports dual language selection, including unicode character
+languages
+• A custom background display appears when operation is normal
+Eight point zone/relay module:
+• Each point is selectable as an IDC input or Relay output, Class A IDCs
+require two points (one out and one return); one module is standard
+and you can field install up to three additional modules for a total of
+four 8 point zone/relay modules for each system
+• You can configure each point on the IDC/Relay module as a control
+relay rated 2 A at 30 VDC (resistive) as either normally open or normally
+closed
+• Power comes directly from the power supply or through the optional
+25 VDC Regulator Module
+• You can select the IDC end-of-line (EOL) resistor value from a wide
+range of resistance values for retrofit convenience
+Electrically isolated IDNet 2 addressable initiating device SLC:
+• Provides built-in short circuit isolation for monitoring and control of
+TrueAlarm analog sensors and IDNet communications monitoring and
+control devices; for use with either shielded or unshielded, twisted or
+untwisted single pair wiring; outputs are Class A or Class B
+• Standard panel signaling line circuit (SLC) provides up to 100
+addressable points; optional additional loop expansion modules
+provide an additional isolated loop with short circuit isolation for
+the IDNet 2 channel; each loop expansion module also provides an
+additional 75 addressable points
+Power supply:
+• Four notification appliance circuits (NACs) selectable as Class A or Class
+B with 6 A total available current
+• You can select the NAC EOL resistor value from a wide range of
+resistance values for retrofit convenience
+• Additional notification power capacity is available using the 4009 IDNet
+NAC Extender
+• Battery backup charging of up to 33 Ah; up to 18 Ah for cabinetmounted batteries and up to 33 Ah for batteries mounted closenippled remote battery cabinet
+General mechanical:
+• Red or platinum cabinet; rated NEMA 1 and IP30
+4007ES Listings reference:
+• UL 864 - Control Units, System (UOJZ); Control Unit Accessories,
+System, Fire Alarm (UOXX); Control Units, Releasing Device Service
+(SYZV)
+• UL 2017 - Emergency Alarm System Control Units (CO detection), (FSZI)
+• ULC-S559 - Central Station Fire Alarm System Units (DAYRC)
+• ULC-S527 - Control Units, System, Fire Alarm (UOJZC); Control Unit
+Accessories, System, Fire Alarm (UOXXC); Control Units, Releasing
+Device Service (SYZVC)
+
+Figure 1: 4007ES Hybrid Unit front view
+Software feature summary:
+• Current and previous panel configuration maintained in on-board
+memory
+• An internal Ethernet service port is available for service computer
+connections to perform configuration updates, downloads and
+uploads; report downloads, and update system software
+• Internal USB interface allows a memory stick to store job revisions,
+update revised jobs and panel software, and save detailed system
+reports from the panel
+Optional modules and connections include:
+• Fire alarm network interface card (NIC) for ES Net or 4120 network
+• Peer-to-Peer network communications, supports either Class B or
+Class X operation
+• Point or Event DACT assembly for IP Communicators
+• Up to two additional IDNet 2 addressable device output loop
+connections with short circuit fault protection and with 75 additional
+point capacity each
+• Front mounted 48 LED annunciator with custom label inserts; LEDs
+are programmable for up to 24 IDC zones of alarm and trouble
+annunciation or other custom annunciation requirements
+• Remote LED annunciator support through remote user interface (RUI)
+communications port for use with UTP wiring
+• Dual RS-232 ports for printer, PC annunciator or third party interface
+• TrueInsight Remote Gateway
+• Alarm relays and auxiliary relays
+• City connections, with or without disconnect switch
+• 4009 IDNet NAC Extenders to extend NAC capability for power and
+distance
+• Battery brackets for seismic area protection; see Mechanical
+description for more information
+
+* This product has been approved by the California State Fire Marshal (CSFM) pursuant to Section 13144.1 of the California Health and Safety Code. See CSFM Listing 7165-0026:0378 for allowable
+values and/or conditions concerning material presented in this document. NYC Fire Dept COA #6191A. At the time of publication only UL and ULC listings are applicable to ES Net network products.
+Additional listings may be applicable; contact your local product supplier for the latest status. Listings and approvals under Simplex Time Recorder Co. are the property of Tyco Fire Protection Products.
+
+S4007-0001 Rev. 17 02/2021
+
+4007ES Hybrid, Fire Detection and Control Unit with Addressable and/or Conventional Initiation
+Introduction
+
+Touchscreen display with LED status indicators
+
+4007ES Series Fire Detection and Control Units provide extensive
+installation, operator, and service features with point and module
+capacities suitable for a wide range of system applications. Panels can
+be configured for stand-alone or networked fire control operation.
+The convenient and intuitive color touchscreen provides easy access
+for typical system response actions and for detailed system review or
+configuration updates with password control to limit user access.
+Standard conventional IDCs and addressable IDNet 2 communications
+provide flexibility for both new and retrofit systems. IDC and NAC EOL
+resistor values are selectable to match a wide range of existing initiating
+device circuits and notification appliance circuits.
+
+ES panel compatibility with ES Net
+Simplex ES Network (ES Net) is a next generation IP-based fire network
+that uses industry standard network technology and infrastructure, and
+allows for simplified network upgrades, easy terminal connectivity and IP
+file transfer between nodes, and advanced network diagnostics.
+You can upgrade ES fire alarm control units (FACUs) to operate on an ES
+network by adding an ES Net NIC to the panel.
+To upgrade an existing 4120 network to ES Net, you must replace all of
+the 4120 NIC cards on the network loop with ES Net NICs.
+Note: ES NICs and 4120 NICs cannot be mixed on the same network
+loop.
+
+Figure 2: Touchscreen display with LED status indicators
+
+Operator screen reference
+Main Menu screen provides
+easy navigation to the function
+required. Buttons A, B, and C have
+programmable functions.
+
+System Alarm screen identifies
+active alarms with custom labels
+displayed. Use the arrows to allow
+navigation through the list.
+
+System Trouble screen identifies
+active troubles with custom labels
+displayed, arrows allow navigation
+through the list.
+
+Trouble Log screen allows review
+of past troubles with time stamp
+and point details shown.
+
+For more detailed information on ES Net, refer to data sheet
+S4100-0076, and talk to your local Simplex product supplier.
+
+Operator interface
+Convenient status information
+With the locking door closed, the glass window allows viewing of the
+display status LEDs. The user interface is a 4.3 in. (109 mm) diagonal
+color touchscreen LCD with separate status LEDs, see Figure 2.
+LED indicators describe the general category of activity being displayed
+and the LCD provides more detail. Authorized user can unlock the door
+to gain access to the control functions and scroll through the display for
+additional detail.
+
+Operator interface and software features
+• Convenient and detailed operator information is easily accessible
+using a logical, menu-driven touchscreen display with password access
+control
+• Multiple automatic and manual diagnostics for maintenance reduction
+• Alarm and Trouble History Logs (up to 1000 entries for each, 2000 total
+events) are available for viewing from the display or for printing to a
+connected printer, or downloaded to a service computer
+• Module level ground fault searching assists installation and service by
+locating and isolating modules with grounded wiring
+• WALKTEST silent or audible system test performs an automatic selfresetting test cycle and supports up to eight WALKTEST groups
+• Install Mode allows grouping of multiple troubles for uninstalled
+modules and devices into a single trouble condition (typical with future
+phased expansion); with future equipment and devices grouped into
+a single trouble, operators can more clearly identify events from the
+commissioned and occupied areas
+
+Page 2
+
+Point Information screen allows User Access Login screen controls
+review of point details, arrows allow access to panel operations as
+navigation through the information. determined per panel.
+
+Mechanical description
+• Locking door with polycarbonate window
+• Latching front panel assembly swings forward for convenient internal
+access
+• Smooth box surfaces are provided for locally cutting conduit entrance
+holes exactly where required
+• Modules are power-limited except as noted, such as relay modules
+• Battery compartment (bottom) accepts two batteries, up to 18 Ah, to
+be mounted within the cabinet without interfering with module space;
+S4007-0001 Rev. 17 02/2021
+
+4007ES Hybrid, Fire Detection and Control Unit with Addressable and/or Conventional Initiation
+charger capacity is up to 33 Ah; for information about batteries greater
+than 18 Ah and external battery cabinets, see Module and accessories
+selection information
+• Cabinet assembly design has been seismic tested and is certified to
+IBC and CBC standards as well as to ASCE 7 categories A through F,
+requires battery brackets, refer to data sheet S2081-0019 for more
+information
+
+IDNet 2 addressable device control
+The 4007ES Hybrid provides an IDNet 2 addressable initiating device
+signaling line circuit (SLC) that supervises wiring connections and the
+individual device communications status on the SLC. With 2-wire IDNet
+2 SLCs, initiation, monitoring, and control devices such as manual
+fire alarm stations, TrueAlarm sensors, control relays, and sprinkler
+waterflow switches can communicate their identity and status and
+receive fire alarm system control. Additional addressable interface
+modules include circuit isolators, conventional IDC zone adapters, and
+interface to other system circuits such as fans, dampers, and elevator
+controls.
+
+IDNet 2 addressable device operation
+Each addressable device on the IDNet 2 communication channel
+is continuously interrogated for status condition such as: normal,
+off-normal, alarm, supervisory, or trouble. Both Class B and Class A
+operation is available. Sophisticated poll and response communication
+techniques ensure supervision integrity and allow for T-tapping of
+the circuits for Class B operation. Devices with LEDs pulse the LED to
+indicate receipt of a communications poll and can be turned on steady
+from the panel. With addressable devices, the location and status of the
+connected device is monitored, logged, and displayed on the operator
+interface LCD with each device having its own 40-character custom label
+for precise identification.
+
+TrueAlarm addressable sensor operation
+Addressable initiating device communications include operation of
+TrueAlarm smoke and temperature sensors. Smoke sensors transmit
+an output value based on their smoke chamber condition and the CPU
+maintains a current value, peak value, and an average value for each
+sensor. Status is determined by comparing the current sensor value to
+its average value. Tracking this average value as a continuously shifting
+reference point filters out environmental factors that cause shifts in
+sensitivity.
+
+Figure 3: TrueAlarm
+Photo Sensor with base
+
+Figure 4: TrueAlarm Photo/
+Heat Sensor in CO base
+
+Programmable sensitivity
+Programmable sensitivity of each sensor is selectable at the control
+panel for different levels of smoke obscuration, shown directly in
+percent, or for specific heat detection levels. To evaluate whether the
+sensitivity should be revised, the peak value is stored in memory and can
+be easily read or downloaded as a report and compared to the alarm
+threshold directly in percent.
+CO sensor bases
+CO sensor bases combine an electrolytic CO sensing module with a
+TrueAlarm analog sensor to provide a single multiple sensing assembly
+using one system address. You can enable and disable the CO sensor,
+and you can use it in LED/Switch modes and custom control. Refer to
+data sheet S4098-0052 for more details.
+
+Page 3
+
+TrueAlarm heat sensors
+You can select TrueAlarm heat sensors for fixed temperature detection,
+with or without rate-of-rise detection. Utility temperature sensing is also
+available, typically to provide freeze warnings or alert to HVAC system
+problems. Readings are selectable as either Fahrenheit or Celsius.
+TrueSense early fire detection
+Multi-sensor 4098-9754 provides photoelectric and heat sensor data
+using a single IDNet address. The panel evaluates smoke activity, heat
+activity, and their combination, to provide TrueSense early detection. For
+more details on this operation, refer to data sheet S4098-0024.
+
+Diagnostics and default device type
+Sensor status
+TrueAlarm operation allows the FACU to automatically indicate when
+a sensor is almost dirty, dirty, and excessively dirty. The NFPA 72
+requirement for a test of the sensitivity range of the sensors is fulfilled
+by the ability of TrueAlarm operation to maintain the sensitivity level of
+each sensor. CO sensors track their 10 year active life status providing
+indicators to assist with service planning. Indicators occur at: 1 year, 6
+months, and end of life.
+Modular TrueAlarm sensors
+TrueAlarm sensors use the same base and different sensor types (smoke
+or heat sensor) and can be easily interchanged to meet specific location
+requirements. This allows intentional sensor substitution during building
+construction when conditions are temporarily dusty. Instead of covering
+smoke sensors causing them to disable, heat sensors may be installed
+without reprogramming the FACU. The FACU will indicate an incorrect
+sensor type, but the heat sensor will operate at a default sensitivity to
+provide heat detection for building protection at that location.
+
+IDNet 2 addressable channel capacity
+The 4007ES Hybrid provides an isolated output IDNet 2 SLC that
+supports up to 250 addressable monitor and control points intermixed
+on the same pair of wires. 250 total requires two 4007-9803 IDNet 2
+loop expansion modules.
+Table 1: IDNet 2 SLC wiring specifications
+
+Specification
+Rating
+0 to 125 4000 ft (1219 m); 50 ohms
+Maximum distance
+from control panel for 126 to
+2500 ft (762 m); 35 ohms
+each device load
+250
+Total wire length allowed with
+Up to 12,500 ft (3.8 km); 0.60 µF
+T-taps for Class B wiring
+Maximum capacitance between
+1 µF
+IDNet 2 channels
+0.8 mA supv., 1 mA alarm; 2 mA for
+Loading for each device
+each activated device LED
+Shielded or unshielded, twisted or
+Wire type and connections
+untwisted wire, see note.
+Terminal blocks for 18 AWG to 12
+Connections
+AWG
+Compatibility includes: IDNet communicating devices and TrueAlarm
+sensors including QuickConnect and QuickConnect2 sensors; see data
+sheet S4090-0011 for additional reference.
+Note: Some applications may require shielded wiring. Review your
+system with your local Simplex product supplier.
+
+S4007-0001 Rev. 17 02/2021
+
+4007ES Hybrid, Fire Detection and Control Unit with Addressable and/or Conventional Initiation
+Power supply output and zone/relay module details
+Power supply output details
+• RUI Communications controls up to 10 remote devices at up to 2500 ft (762 m) for single run, or 10,000 ft (3048 m) total if wiring is Class B and Ttapped; selectable as Class B or Class A
+• Compatible RUI remote equipment includes: 4606-9202 and 4606-9205 Color Touchscreen Annunciators (up to 6 total), 4100 Series 24 I/O and LED/
+Switch modules, 4602 Series LED/Switch and I/O Annunciator modules, including 4602-9101 Status Command Units (SCU), and 4602-9102 Remote
+Command Units (RCU)
+• IDNet 2 SLC output provides electrically isolated Class B or Class A communication; standard capacity is up to 100 addressable points with expansion
+for up to 250 points using up to two 4007-9803 IDNet 2 Loop Expansion Modules; as described in IDNet 2 addressable channel capacity
+• 6 A output rating, including current for: special application notification appliances; IDNet devices; module currents; and auxiliary output current
+(battery charging, CPU, and power supply current does not subtract from the 6 A); when NACs are controlling Regulated 24 DC Appliances, total NAC
+current available is 3 A
+• Four on-board Class B/Class A NACs, rated 3 A each for Special Application appliances; selectable for SmartSync horn and strobe control, or strobe
+synchronization; rated 2 A each for Regulated 24 DC appliances
+• NAC EOL resistor values are selectable as: 10 kohms, 3.9 kohms, 4.7 kohms, 5.1 kohms, 5.6 kohms, or 15 kohms
+• Battery charger is dual rate, temperature compensated, and charges up to 18 Ah sealed lead-acid batteries mounted in the battery compartment,
+and charges up to 33 Ah batteries mounted in an external cabinet
+• Battery and Charger Monitoring includes battery charger status and low or depleted battery conditions; status information provided to the master
+controller includes analog values for: battery voltage, charger voltage and current, actual system voltage and current, and NAC current
+• Low Battery Voltage Cutout is selectable when required (required for ULC Listing applications)
+• 2 A Auxiliary Output (AUX/SNAC) can be selected either as resettable auxiliary power of 2 A @ 24 VDC, or selected to be a simple NAC (SNAC) for
+sounder base power, four-wire detector power, or door holder power
+Zone/relay module details
+• Select as IDC or Relay; configure up to eight Class B IDCs, or up to four Class A IDCs; or up to eight Relay outputs rated 2 A resistive @ 30 VDC (N.O. or
+N.C.); or combinations of IDCs and Relays; each zone is separately configurable as an IDC or Relay output
+• IDC Support. Each IDC supports up to 30, two-wire devices
+• IDC EOL resistor values are selectable as: 3.3 kohms, 2 kohms, 2.2 kohms, 3.4 kohms, 3.9 kohms, 4.7 kohms, 5.1 kohms, 5.6 kohms, 6.34/6.8 kohms,
+and 3.6 kohms + 1.1 kohms; see instructions for more details
+
+Page 4
+
+S4007-0001 Rev. 17 02/2021
+
+4007ES Hybrid, Fire Detection and Control Unit with Addressable and/or Conventional Initiation
+4007ES mounting and module location reference
+
+Figure 5: 4007ES mounting and module location reference
+Table 2: Module locations
+
+Key
+A
+B
+C
+D
+
+Description
+CPU and user interface assembly.
+Location for optional 4007-9805 LED module.
+Power Supply Assembly.
+4007-9806 SDACT location.
+Note: The SDACT includes a 650-1838 flat mounting bracket (available separately). Some pre-existing systems with an angled SDACT
+bracket will need to be replaced with the flat mounting bracket when an NIC is installed.
+
+E
+F
+G
+H
+I
+J
+K
+L
+
+M
+
+Location for 4007-9801 Zone/Relay Module, 4007-9812 Dual RS-232 Interface, 4007-9804 Dual Class A IDNAC Isolator (DCAI), or (as
+shown) 4007-9802 25 V Regulator Module
+Primary location for 4007-9801 Zone/Relay Module, or 4190-6106 TrueInsight Remote Service Gateway.
+Location for additional 4007-9801 Zone/Relay Module.
+Location for additional 4007-9801 Zone/Relay Module.
+4007-9807 or 4007-9808 City Circuit Module, or 4007-9809 Relay Module.
+4007-9803 IDNet 2 Loop Expansion Modules, maximum of two (two are shown).
+4007-9803 IDNet 2 Loop Expansion Modules, maximum of two (two are shown).
+Block L is an additional block that sits on spacers above block G and H. You can mount the 4007-9810 or 4007-9817 NIC in block L
+with or without modules mounted below it in blocks G and H. When you use fiber media cards and an SDACT is present, the SDACT
+requires a 650-1838 flat mounting bracket, ordered separately.
+Battery location for up to 18 Ah batteries.
+Note: No conduit entry or wiring in this area, 14 7/8 in. (378 mm) wide.
+
+Note: A system ground must be provided for Earth Detection and transient protection devices. This connection shall be made to an approved,
+dedicated Earth connection per NFPA 70, Article 250, and NFPA 780.
