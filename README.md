@@ -3,7 +3,31 @@
 
 <img width="1042" alt="Screenshot 2025-02-21 at 3 00 31 AM" src="https://github.com/user-attachments/assets/60336a14-14ed-47f2-859a-352ba59737e1" />
 
+# 🔍 Retrieval-Augmented Generation (RAG) Prototype for Fire Safety Documentation  
 
+This project is a **prototype** designed to demonstrate the power of Retrieval-Augmented Generation (RAG) in answering domain-specific queries and generating personalized recommendations based on client requirements. The system processes large fire alarm documentation, such as the *Simplex 4100ES Fire Control Unit guide*, and uses AI to provide accurate answers and actionable recommendations tailored to user queries.
+
+---
+
+## 🧠 What is RAG?
+
+**Retrieval-Augmented Generation (RAG)** is a hybrid AI technique that combines the strengths of retrieval-based systems and generative models. It retrieves relevant information from a knowledge base (e.g., documents, databases) and augments this information with a Large Language Model (LLM) to generate precise, context-aware responses. Unlike traditional LLMs that rely solely on their training data, RAG dynamically incorporates external domain-specific data, ensuring up-to-date and accurate outputs.
+
+### How RAG Works:
+1. **Retrieval**: Identifies relevant documents from a vector database using semantic search.
+2. **Augmentation**: Combines retrieved information with the user's query to create a detailed context.
+3. **Generation**: Uses an LLM to generate responses based on the augmented query.
+
+---
+
+## 💡 Use Case
+
+This prototype focuses on analyzing fire alarm documentation, such as the *Simplex 4100ES Fire Control Unit guide*. It can:
+- Answer technical questions like *"Explain the purpose and operation sequence of Install Mode in 4100ES Fire Control Units."*
+- Generate personalized recommendations for configuring fire safety systems based on client-specific requirements.
+- Process large documents efficiently to provide accurate, actionable insights.
+
+The ultimate goal is to scale this system to handle massive datasets and deliver tailored recommendations for various industries.
 
 ## 🛠️ Installation Guide
 
